@@ -1,12 +1,20 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { refreshFromUsgs, type Forecast, type PortalData } from "./live-data";
 
 const DAY_MS = 86_400_000;
+const GALLERY = Array.from({ length: 7 }, (_, index) => ({
+  src: `/gallery/kilauea-${index + 1}.jpg`,
+  alt: `Kīlauea eruption photograph ${index + 1} of 7`,
+}));
 
 function dayNumber(value: string) {
   return Date.parse(`${value}T00:00:00Z`) / DAY_MS;
+}
+
+function isoDay(value: number) {
+  return new Date(value * DAY_MS).toISOString().slice(0, 10);
 }
 
 function dateLabel(value: string, options?: Intl.DateTimeFormatOptions) {
@@ -29,35 +37,126 @@ function probabilityLabel(value: number) {
 function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <span className={`brand ${compact ? "compact" : ""}`}>
-      <img src="/turkeysci-logo.png" alt="" />
+      <img src="/turkeysci-logo-v2.png" alt="" />
       <span>TurkeySci</span>
     </span>
   );
 }
 
-function ForecastEvolution({ forecasts, episode }: { forecasts: Forecast[]; episode: number }) {
+function GalleryBand() {
+  const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const timer = window.setInterval(() => setActive((value) => (value + 1) % GALLERY.length), 6500);
+    return () => window.clearInterval(timer);
+  }, []);
+
+  const move = (direction: number) => {
+    setActive((value) => (value + direction + GALLERY.length) % GALLERY.length);
+  };
+
+  return (
+    <section className="gallery-band" aria-label="Kīlauea gallery">
+      <div className="gallery-stage">
+        {GALLERY.map((photo, index) => (
+          <img
+            key={photo.src}
+            className={index === active ? "active" : ""}
+            src={photo.src}
+            alt={photo.alt}
+            loading={index === 0 ? "eager" : "lazy"}
+          />
+        ))}
+        <div className="gallery-shade" />
+        <div className="gallery-copy">
+          <span>Kīlauea gallery</span>
+          <strong>Fountain episodes at the summit</strong>
+        </div>
+        <button className="gallery-arrow previous" type="button" onClick={() => move(-1)} aria-label="Previous gallery photo">←</button>
+        <button className="gallery-arrow next" type="button" onClick={() => move(1)} aria-label="Next gallery photo">→</button>
+        <div className="gallery-dots" aria-label="Choose gallery photo">
+          {GALLERY.map((photo, index) => (
+            <button
+              key={photo.src}
+              type="button"
+              className={index === active ? "active" : ""}
+              onClick={() => setActive(index)}
+              aria-label={`Show photo ${index + 1}`}
+              aria-current={index === active ? "true" : undefined}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ForecastEvolution({ forecasts, episode, referenceDate }: { forecasts: Forecast[]; episode: number; referenceDate: string }) {
   const rows = [...forecasts].sort((a, b) => a.issuedDate.localeCompare(b.issuedDate));
   if (!rows.length) return <p className="empty-state">Waiting for the first USGS forecast window for episode {episode}.</p>;
   const min = Math.min(...rows.map((row) => dayNumber(row.windowStart))) - 1;
   const max = Math.max(...rows.map((row) => dayNumber(row.windowEnd))) + 1;
-  const span = Math.max(max - min, 1);
+  const days = Array.from({ length: max - min + 1 }, (_, index) => isoDay(min + index));
+  const latestIssued = rows.at(-1)?.issuedDate;
+  const highlightedDate = rows.some((row) => row.issuedDate === referenceDate) ? referenceDate : latestIssued;
+  const span = Math.max(days.length, 1);
+  const chartStyle = { "--evolution-days": days.length } as CSSProperties;
 
   return (
-    <div className="evolution-chart" role="img" aria-label={`How the USGS forecast window changed for episode ${episode}`}>
-      <div className="evolution-axis"><span>{dateLabel(new Date(min * DAY_MS).toISOString().slice(0, 10))}</span><span>Predicted eruption date</span><span>{dateLabel(new Date(max * DAY_MS).toISOString().slice(0, 10))}</span></div>
-      {rows.map((row) => {
-        const left = ((dayNumber(row.windowStart) - min) / span) * 100;
-        const width = ((dayNumber(row.windowEnd) - dayNumber(row.windowStart) + 1) / span) * 100;
-        return (
-          <div className="evolution-row" key={`${row.episode}-${row.issuedDate}`}>
-            <time dateTime={row.issuedDate}>{dateLabel(row.issuedDate)}</time>
-            <div className="evolution-track">
-              <span className="evolution-window" style={{ left: `${left}%`, width: `${width}%` }} />
-            </div>
-            <span>{dateLabel(row.windowStart)}—{dateLabel(row.windowEnd)}</span>
+    <div className="evolution-scroll">
+      <div className="evolution-chart" style={chartStyle} role="img" aria-label={`Daily USGS forecast windows for episode ${episode}; latest row highlighted`}>
+        <div className="evolution-axis-row">
+          <span>Update date</span>
+          <div className="evolution-ticks">
+            {days.map((day) => <time key={day} dateTime={day}>{dateLabel(day)}</time>)}
           </div>
-        );
-      })}
+        </div>
+        {rows.map((row) => {
+          const left = ((dayNumber(row.windowStart) - min) / span) * 100;
+          const width = ((dayNumber(row.windowEnd) - dayNumber(row.windowStart) + 1) / span) * 100;
+          const highlighted = row.issuedDate === highlightedDate;
+          return (
+            <div className={`evolution-row ${highlighted ? "today" : ""}`} key={`${row.episode}-${row.issuedDate}`}>
+              <time dateTime={row.issuedDate}>
+                {dateLabel(row.issuedDate)}
+                {highlighted && <small>{row.issuedDate === referenceDate ? "Today" : "Latest"}</small>}
+              </time>
+              <div className="evolution-track">
+                <div className="evolution-grid">{days.map((day) => <i key={day} />)}</div>
+                <span className="evolution-window" style={{ left: `${left}%`, width: `${width}%` }}>
+                  <b>{dateLabel(row.windowStart)}–{dateLabel(row.windowEnd)}</b>
+                </span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function EruptionTimeline({ eruptions }: { eruptions: PortalData["previousEruptions"] }) {
+  const sorted = [...eruptions].sort((a, b) => a.episode - b.episode);
+  const newestEpisode = sorted.at(-1)?.episode || 0;
+  const recent = sorted.filter((item) => item.episode >= newestEpisode - 9);
+  return (
+    <div className="eruption-scroll">
+      <div className="eruption-timeline" role="img" aria-label="Timeline of the ten most recent completed Kīlauea eruption episodes">
+        <div className="timeline-line" aria-hidden="true" />
+        {recent.map((item, index) => {
+          const previous = recent[index - 1];
+          const gap = previous ? dayNumber(item.startDate) - dayNumber(previous.startDate) : null;
+          return (
+            <div className="timeline-event" key={item.episode}>
+              {gap !== null && <span className="timeline-gap">{gap} days</span>}
+              <span className="timeline-dot" />
+              <strong>Episode {item.episode}</strong>
+              <time dateTime={item.startDate}>{dateLabel(item.startDate, { month: "long", year: "numeric" })}</time>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
@@ -82,16 +181,8 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
     () => [...data.recentForecasts].sort((a, b) => a.issuedDate.localeCompare(b.issuedDate)),
     [data.recentForecasts],
   );
-  const eruptions = useMemo(
-    () => [...data.previousEruptions].sort((a, b) => a.episode - b.episode),
-    [data.previousEruptions],
-  );
-  const eruptionGaps = eruptions.map((eruption, index) => ({
-    ...eruption,
-    gap: index ? dayNumber(eruption.startDate) - dayNumber(eruptions[index - 1].startDate) : 0,
-  }));
-  const maxGap = Math.max(...eruptionGaps.map((item) => item.gap), 1);
   const usgsWindow = data.usgs.forecastWindow;
+  const referenceDate = data.generatedAt.slice(0, 10);
 
   return (
     <main>
@@ -106,10 +197,12 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
         <a className="source-link usgs-link" href={data.usgs.sourceUrl} target="_blank" rel="noreferrer">Official USGS update ↗</a>
       </header>
 
+      <GalleryBand />
+
       <section className="hero" id="top">
         <div className="hero-rings" aria-hidden="true"><span /><span /><span /></div>
-        <img className="hero-logo" src="/turkeysci-logo.png" alt="Turkey with a volcano, the TurkeySci logo" />
-        <div className="eyebrow"><span className="pulse" /> Kīlauea · Episode {data.currentEpisode}</div>
+        <img className="hero-logo" src="/turkeysci-logo-v2.png" alt="Turkey with a volcano on its back, the TurkeySci logo" />
+        <div className="episode-badge"><span>Current episode</span><strong>{data.currentEpisode}</strong></div>
         <h1>When might<br />Kīlauea erupt next?</h1>
         <p className="hero-intro">An independent Bayesian model that combines the complete sequence of USGS forecast windows for the active episode.</p>
         <div className="hero-meta">
@@ -127,8 +220,8 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
             {data.model ? <>
               <div className="prediction-date"><span>{longDate(data.model.mapDate).split(",")[0]}</span><strong>{dateLabel(data.model.mapDate, { month: "long" })}</strong></div>
               <div className="intervals">
-                <div><span>50% credible interval</span><strong>{dateLabel(data.model.ci50[0])}—{dateLabel(data.model.ci50[1])}</strong></div>
-                <div><span>95% credible interval</span><strong>{dateLabel(data.model.ci95[0])}—{dateLabel(data.model.ci95[1])}</strong></div>
+                <div><span>Most likely 50% range</span><strong>{dateLabel(data.model.ci50[0])}—{dateLabel(data.model.ci50[1])}</strong></div>
+                <div><span>Wider 95% range</span><strong>{dateLabel(data.model.ci95[0])}—{dateLabel(data.model.ci95[1])}</strong></div>
               </div>
               <p className="observation-note">Combines {data.model.observations} daily USGS forecast windows for episode {data.currentEpisode}; it is not the midpoint of the latest window.</p>
             </> : <p className="empty-state">Waiting for a new official USGS forecast window.</p>}
@@ -144,53 +237,57 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
 
         {data.model && <article className="distribution-card" aria-labelledby="distribution-title">
           <div className="chart-heading">
-            <div><div className="card-kicker">Bayesian posterior</div><h2 id="distribution-title">Relative probability by date</h2></div>
-            <div className="chart-legends"><span><i className="model-key" />TurkeySci</span><span><i className="usgs-key" />USGS window</span></div>
+            <div><div className="card-kicker">Combined daily forecasts</div><h2 id="distribution-title">Relative probability by date</h2></div>
+            <div className="chart-legends"><span><i className="model-key" />TurkeySci probability</span><span><i className="usgs-key" />Latest USGS window</span></div>
           </div>
-          <div className="chart" role="img" aria-label={`Posterior distribution peaking on ${longDate(data.model.mapDate)}; the current USGS window is shaded green`}>
-            {data.model.distribution.map((point, index) => {
-              const inUsgs = Boolean(usgsWindow && point.date >= usgsWindow.start && point.date <= usgsWindow.end);
-              const showLabel = index % 2 === 0 || point.date === data.model?.mapDate;
-              return <div className={`bar-column ${point.date === data.model?.mapDate ? "peak" : ""} ${inUsgs ? "in-usgs" : ""}`} key={point.date}>
-                <span className="bar-value">{point.date === data.model?.mapDate ? probabilityLabel(point.probability) : ""}</span>
-                <div className="bar-track"><div className="bar" style={{ height: `${Math.max((point.probability / peak) * 100, .4)}%` }} /></div>
-                <span className="bar-date">{showLabel ? dateLabel(point.date) : ""}</span>
-              </div>;
-            })}
+          <p className="figure-intro">Every date is shown in order. Taller orange bars mean greater relative support from the TurkeySci model.</p>
+          <div className="distribution-scroll">
+            <div className="chart" style={{ minWidth: `${Math.max(760, data.model.distribution.length * 58)}px` }} role="img" aria-label={`Daily probability distribution peaking on ${longDate(data.model.mapDate)}; current USGS window appears behind the TurkeySci bars`}>
+              {usgsWindow && (() => {
+                const start = data.model!.distribution.findIndex((point) => point.date === usgsWindow.start);
+                const end = data.model!.distribution.findIndex((point) => point.date === usgsWindow.end);
+                if (start < 0 || end < 0) return null;
+                return <span className="usgs-band" style={{ left: `${(start / data.model!.distribution.length) * 100}%`, width: `${((end - start + 1) / data.model!.distribution.length) * 100}%` }}><b>USGS window</b></span>;
+              })()}
+              {data.model.distribution.map((point) => {
+                const isPeak = point.date === data.model?.mapDate;
+                const showValue = point.probability >= .001 || isPeak;
+                return <div className={`bar-column ${isPeak ? "peak" : ""}`} key={point.date}>
+                  <span className="bar-value">{showValue ? probabilityLabel(point.probability) : ""}</span>
+                  <div className="bar-track"><div className="bar" style={{ height: `${Math.max((point.probability / peak) * 100, .35)}%` }} /></div>
+                  <time className="bar-date" dateTime={point.date}>{dateLabel(point.date)}</time>
+                  {isPeak && <span className="prediction-marker"><b>TurkeySci</b><small>most likely</small></span>}
+                </div>;
+              })}
+            </div>
           </div>
-          <p className="chart-note">Green shading is the latest official USGS window. Orange bars are the posterior obtained by combining all {data.model.observations} windows shown below.</p>
+          <p className="chart-note">The green band is the latest official USGS range. The orange TurkeySci result stays on top so both can be compared directly.</p>
         </article>}
 
         <article className="history-card" id="evolution">
           <div className="history-heading"><div><div className="card-kicker">Episode {data.currentEpisode} inputs</div><h2>How the USGS forecast changed each day</h2></div><span>{chronologicalForecasts.length} daily windows</span></div>
-          <p className="figure-intro">Each horizontal bar is the forecast published on that date. The chart automatically resets to the next episode after an eruption is recorded.</p>
-          <ForecastEvolution forecasts={chronologicalForecasts} episode={data.currentEpisode} />
+          <p className="figure-intro">Dates across the top are possible eruption dates. Each row is one USGS update; the highlighted row is today’s update, or the latest available update if today’s report has not been published.</p>
+          <ForecastEvolution forecasts={chronologicalForecasts} episode={data.currentEpisode} referenceDate={referenceDate} />
         </article>
 
         <article className="eruption-card" id="history">
-          <div className="history-heading"><div><div className="card-kicker">Observed history</div><h2>Recent eruption dates and pauses</h2></div><span>USGS timeline</span></div>
-          <div className="eruption-chart" role="img" aria-label="Days between recent Kīlauea eruption episodes">
-            {eruptionGaps.map((item) => <div className="eruption-column" key={item.episode}>
-              <span className="gap-label">{item.gap ? `${item.gap}d` : ""}</span>
-              <div className="gap-bar" style={{ height: `${item.gap ? Math.max((item.gap / maxGap) * 100, 12) : 4}%` }} />
-              <strong>EP{item.episode}</strong><time dateTime={item.startDate}>{dateLabel(item.startDate)}</time>
-            </div>)}
-          </div>
-          <p className="chart-note">Bar height shows the number of days since the previous episode. Dates are observed episode starts, not model estimates.</p>
+          <div className="history-heading"><div><div className="card-kicker">Observed history</div><h2>Recent eruption timeline</h2></div><span>USGS episode dates</span></div>
+          <p className="figure-intro">The ten most recent completed episodes are shown in sequence. The number between markers is the time from one episode start to the next.</p>
+          <EruptionTimeline eruptions={data.previousEruptions} />
         </article>
       </section>
 
       <section className="method-section" id="method">
         <div className="section-label">02 · What the model actually does</div>
         <div className="method-intro"><h2>Every forecast matters.</h2><p>TurkeySci uses the complete sequence of daily USGS windows for the active episode—not just the latest range and not simply its midpoint.</p></div>
-        <div className="equation-card"><span>Posterior(date)</span><strong>∝</strong><span>uniform prior</span><strong>×</strong><span>weighted likelihood₁</span><strong>× ··· ×</strong><span>weighted likelihoodₙ</span></div>
+        <div className="equation-card"><span>Probability by date</span><strong>∝</strong><span>starting assumption</span><strong>×</strong><span>weighted daily forecasts</span></div>
         <div className="steps">
           <article><span>1</span><h3>Collect</h3><p>Retrieve every daily forecast window for the active episode from the official USGS HANS archive.</p></article>
-          <article><span>2</span><h3>Translate</h3><p>Represent each window as a Gaussian likelihood centered on that window, with uncertainty tied to its width.</p></article>
-          <article><span>3</span><h3>Weight</h3><p>Increase the influence of newer and narrower forecasts using the original model parameters.</p></article>
-          <article><span>4</span><h3>Combine</h3><p>Multiply all weighted likelihoods with a uniform prior and normalize the result across calendar dates.</p></article>
+          <article><span>2</span><h3>Translate</h3><p>Turn each published window into a smooth range of possible eruption dates.</p></article>
+          <article><span>3</span><h3>Weight</h3><p>Give newer and narrower forecasts more influence using the original model settings.</p></article>
+          <article><span>4</span><h3>Combine</h3><p>Combine all daily evidence and rescale it into an easy-to-compare probability curve.</p></article>
         </div>
-        <div className="method-detail"><span>Current parameters</span><code>σ scale 2.0 · recency 2.0 · narrowness 1.5 · ±7 day grid</code></div>
+        <div className="method-detail"><span>Technical settings</span><code>σ scale 2.0 · recency 2.0 · narrowness 1.5 · ±7 day grid</code></div>
       </section>
 
       <section className="about-section" id="about">

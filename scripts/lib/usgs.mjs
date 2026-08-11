@@ -115,5 +115,9 @@ export function parseEruptionTimeline(html, sourceUrl) {
     });
   }
   if (!rows.length) throw new Error("No eruption timeline rows were parsed");
-  return rows;
+
+  // The USGS page can repeat the timeline table for responsive layouts. Keep
+  // one authoritative start date per episode so recent slices stay continuous.
+  return [...new Map(rows.map((row) => [row.episode, row])).values()]
+    .sort((a, b) => a.episode - b.episode);
 }

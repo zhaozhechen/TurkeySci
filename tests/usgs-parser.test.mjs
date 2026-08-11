@@ -26,6 +26,20 @@ test("parses episode starts from the USGS table", () => {
   ]);
 });
 
+test("deduplicates repeated responsive timeline rows and preserves episode order", () => {
+  const html = `<h2>Timeline of Eruptive Episodes</h2><table><tbody>
+    <tr><td>51</td><td>July 15, 2026 - 8:30 a.m.</td></tr>
+    <tr><td>52</td><td>July 28, 2026 - 7:10 p.m.</td></tr>
+  </tbody></table><table><tbody>
+    <tr><td>51</td><td>July 15, 2026 - 8:30 a.m.</td></tr>
+    <tr><td>52</td><td>July 28, 2026 - 7:10 p.m.</td></tr>
+  </tbody></table>`;
+  assert.deepEqual(parseEruptionTimeline(html, "https://example.test"), [
+    { episode: 51, startDate: "2026-07-15", sourceUrl: "https://example.test" },
+    { episode: 52, startDate: "2026-07-28", sourceUrl: "https://example.test" },
+  ]);
+});
+
 test("parses weekday-qualified forecast windows from archived notices", () => {
   const html = `<b>Monday, May 4, 2026, 10:03 AM HST</b>
     Current Volcano Alert Level: ADVISORY<br>Current Aviation Color Code: YELLOW

@@ -129,7 +129,7 @@ export async function refreshFromUsgs(initial: PortalData): Promise<PortalData> 
   }
   const previousEruptions = [...eruptionMap.values()]
     .sort((a, b) => b.episode - a.episode)
-    .slice(0, 14);
+    .slice(0, 18);
   const latestCompletedEpisode = Math.max(
     initial.latestCompletedEpisode,
     ...previousEruptions.map((item) => item.episode),

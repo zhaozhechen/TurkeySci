@@ -114,7 +114,7 @@ const generated = {
   usgs: daily,
   model,
   recentForecasts: currentForecasts.slice(-24).reverse(),
-  previousEruptions: eruptions.slice(-14).reverse(),
+  previousEruptions: eruptions.slice(-18).reverse(),
   methodology: "TurkeySci Bayesian product of all Gaussian forecast-window likelihoods in the active episode, with recency and narrowness weighting",
 };
 
