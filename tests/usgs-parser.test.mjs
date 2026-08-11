@@ -25,3 +25,14 @@ test("parses episode starts from the USGS table", () => {
     { episode: 52, startDate: "2026-07-28", sourceUrl: "https://example.test" },
   ]);
 });
+
+test("parses weekday-qualified forecast windows from archived notices", () => {
+  const html = `<b>Monday, May 4, 2026, 10:03 AM HST</b>
+    Current Volcano Alert Level: ADVISORY<br>Current Aviation Color Code: YELLOW
+    <span name="synopsis"><b>Summary:</b> The forecast window for episode 46, based on tilt data,
+    suggests that lava fountaining will occur again sometime between Monday, May 4 and Thursday, May 7.</span>`;
+  const result = parseDailyUpdate(html, "https://example.test");
+  assert.equal(result.episode, 46);
+  assert.equal(result.forecastWindow.start, "2026-05-04");
+  assert.equal(result.forecastWindow.end, "2026-05-07");
+});

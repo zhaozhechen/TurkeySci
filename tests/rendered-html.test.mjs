@@ -19,5 +19,8 @@ test("server-renders the TurkeySci portal and safety context", async () => {
   assert.match(html, /When might/);
   assert.match(html, /Experimental model/);
   assert.match(html, /Official USGS update/);
+  assert.match(html, /Endlessczz/);
+  assert.match(html, /turkeysci-logo\.png/);
+  assert.doesNotMatch(html, /Zhaozhe Chen|github\.com|raw\.githubusercontent/i);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/i);
 });

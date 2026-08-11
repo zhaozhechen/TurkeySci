@@ -14,7 +14,7 @@ Every day at 11:30 a.m. HST, the GitHub Actions workflow:
 4. Runs the TurkeySci posterior model.
 5. Tests the parser and model, then commits updated JSON data when the result changes.
 
-The public portal reads the latest committed JSON directly from this repository, so its forecast can refresh without a manual spreadsheet download.
+The public portal also queries the official USGS HANS API directly when a visitor opens the site. This keeps the public forecast current without exposing or depending on a GitHub link. The committed JSON files remain reproducible snapshots and deployment fallbacks.
 
 ## Model
 
@@ -53,4 +53,4 @@ USGS real-time information is preliminary and may be revised. The repository ret
 
 ## License
 
-MIT © Zhaozhe Chen
+MIT © Endlessczz

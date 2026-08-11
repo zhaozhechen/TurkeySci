@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T17:26:05.154Z",
+  "generatedAt": "2026-08-11T18:02:12.939Z",
   "currentEpisode": 53,
   "latestCompletedEpisode": 52,
   "usgs": {
@@ -18,17 +18,17 @@
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
   "model": {
-    "mapDate": "2026-08-13",
-    "meanDate": "2026-08-13",
+    "mapDate": "2026-08-11",
+    "meanDate": "2026-08-11",
     "ci50": [
-      "2026-08-12",
-      "2026-08-14"
+      "2026-08-11",
+      "2026-08-12"
     ],
     "ci95": [
-      "2026-08-09",
-      "2026-08-17"
+      "2026-08-11",
+      "2026-08-12"
     ],
-    "observations": 1,
+    "observations": 11,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -37,76 +37,100 @@
     },
     "distribution": [
       {
+        "date": "2026-07-30",
+        "probability": 0
+      },
+      {
+        "date": "2026-07-31",
+        "probability": 0
+      },
+      {
+        "date": "2026-08-01",
+        "probability": 0
+      },
+      {
+        "date": "2026-08-02",
+        "probability": 0
+      },
+      {
+        "date": "2026-08-03",
+        "probability": 0
+      },
+      {
+        "date": "2026-08-04",
+        "probability": 0
+      },
+      {
         "date": "2026-08-05",
-        "probability": 0.00006692
+        "probability": 0
       },
       {
         "date": "2026-08-06",
-        "probability": 0.00043635
+        "probability": 0
       },
       {
         "date": "2026-08-07",
-        "probability": 0.00221595
+        "probability": 0
       },
       {
         "date": "2026-08-08",
-        "probability": 0.00876423
+        "probability": 0
       },
       {
         "date": "2026-08-09",
-        "probability": 0.02699574
+        "probability": 6e-8
       },
       {
         "date": "2026-08-10",
-        "probability": 0.06475942
+        "probability": 0.00259045
       },
       {
         "date": "2026-08-11",
-        "probability": 0.12098652
+        "probability": 0.51214709
       },
       {
         "date": "2026-08-12",
-        "probability": 0.17603435
+        "probability": 0.48308829
       },
       {
         "date": "2026-08-13",
-        "probability": 0.19947305
+        "probability": 0.00217406
       },
       {
         "date": "2026-08-14",
-        "probability": 0.17603435
+        "probability": 5e-8
       },
       {
         "date": "2026-08-15",
-        "probability": 0.12098652
+        "probability": 0
       },
       {
         "date": "2026-08-16",
-        "probability": 0.06475942
+        "probability": 0
       },
       {
         "date": "2026-08-17",
-        "probability": 0.02699574
+        "probability": 0
       },
       {
         "date": "2026-08-18",
-        "probability": 0.00876423
+        "probability": 0
       },
       {
         "date": "2026-08-19",
-        "probability": 0.00221595
+        "probability": 0
       },
       {
         "date": "2026-08-20",
-        "probability": 0.00043635
+        "probability": 0
       },
       {
         "date": "2026-08-21",
-        "probability": 0.00006692
+        "probability": 0
       },
       {
         "date": "2026-08-22",
-        "probability": 0.00000799
+        "probability": 0
       }
     ]
   },
@@ -119,7 +143,169 @@
       "windowText": "between August 12 and 15",
       "source": "USGS daily update",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-09",
+      "windowStart": "2026-08-11",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 11 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-09T13:53:48+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-08",
+      "windowStart": "2026-08-10",
+      "windowEnd": "2026-08-13",
+      "windowText": "between August 10 and 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-08T14:37:48+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-07",
+      "windowStart": "2026-08-08",
+      "windowEnd": "2026-08-12",
+      "windowText": "between August 8 and 12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-07T01:38:51+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-06",
+      "windowStart": "2026-08-08",
+      "windowEnd": "2026-08-12",
+      "windowText": "between August 8 and 12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-06T14:47:19+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-05",
+      "windowStart": "2026-08-08",
+      "windowEnd": "2026-08-13",
+      "windowText": "between August 8 and 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-05T14:29:44+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-04",
+      "windowStart": "2026-08-08",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 8 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-04T18:24:55+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-03",
+      "windowStart": "2026-08-07",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 7 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-03T18:06:47+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-02",
+      "windowStart": "2026-08-06",
+      "windowEnd": "2026-08-13",
+      "windowText": "between August 6 and 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-02T18:26:06+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-01",
+      "windowStart": "2026-08-06",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 6 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-01T18:35:33+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-07-31",
+      "windowStart": "2026-08-06",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 6 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-31T18:21:42+00:00"
     }
   ],
-  "methodology": "Original TurkeySci Gaussian-window Bayesian model with recency and narrowness weighting"
+  "previousEruptions": [
+    {
+      "episode": 48,
+      "startDate": "2026-06-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 47,
+      "startDate": "2026-05-14",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 46,
+      "startDate": "2026-05-05",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 45,
+      "startDate": "2026-04-23",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 44,
+      "startDate": "2026-04-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 43,
+      "startDate": "2026-03-10",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 42,
+      "startDate": "2026-02-15",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 41,
+      "startDate": "2026-01-24",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 38,
+      "startDate": "2025-12-06",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 36,
+      "startDate": "2025-11-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 34,
+      "startDate": "2025-10-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 28,
+      "startDate": "2025-07-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 23,
+      "startDate": "2025-05-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 16,
+      "startDate": "2025-04-02",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    }
+  ],
+  "methodology": "TurkeySci Bayesian product of all Gaussian forecast-window likelihoods in the active episode, with recency and narrowness weighting"
 }

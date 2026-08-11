@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T17:26:05.152Z",
+  "updatedAt": "2026-08-11T18:02:12.937Z",
   "forecasts": [
     {
       "episode": 33,
@@ -1330,36 +1330,1143 @@
       "issuedDate": "2026-03-01",
       "windowStart": "2026-03-08",
       "windowEnd": "2026-03-15",
-      "windowText": "Mar8-15",
-      "source": "Legacy USGS transcription",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "windowText": "between March 8 and March 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-01T18:00:20+00:00"
     },
     {
       "episode": 43,
       "issuedDate": "2026-03-02",
       "windowStart": "2026-03-08",
       "windowEnd": "2026-03-15",
-      "windowText": "Mar8-15",
-      "source": "Legacy USGS transcription",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "windowText": "between March 8 and March 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-02T18:33:18+00:00"
     },
     {
       "episode": 43,
       "issuedDate": "2026-03-03",
       "windowStart": "2026-03-10",
       "windowEnd": "2026-03-16",
-      "windowText": "Mar10-16",
-      "source": "Legacy USGS transcription",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "windowText": "between March 10 and March 16",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-03T02:50:34+00:00"
     },
     {
       "episode": 43,
       "issuedDate": "2026-03-04",
       "windowStart": "2026-03-10",
       "windowEnd": "2026-03-16",
-      "windowText": "Mar10-16",
-      "source": "Legacy USGS transcription",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "windowText": "between March 10 and March 16",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-04T18:20:18+00:00"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-05",
+      "windowStart": "2026-03-10",
+      "windowEnd": "2026-03-15",
+      "windowText": "between March 10 and March 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-05T18:05:06+00:00"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-06",
+      "windowStart": "2026-03-10",
+      "windowEnd": "2026-03-15",
+      "windowText": "between March 10 and March 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-06T18:31:19+00:00"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-07",
+      "windowStart": "2026-03-10",
+      "windowEnd": "2026-03-15",
+      "windowText": "between March 10 and March 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-07T17:48:28+00:00"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-08",
+      "windowStart": "2026-03-10",
+      "windowEnd": "2026-03-14",
+      "windowText": "between March 10 and March 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-08T17:55:20+00:00"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-09",
+      "windowStart": "2026-03-10",
+      "windowEnd": "2026-03-14",
+      "windowText": "between March 10 and March 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-09T18:19:14+00:00"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-10",
+      "windowStart": "2026-03-10",
+      "windowEnd": "2026-03-14",
+      "windowText": "between today, March 10, and Saturday March 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-10T18:18:25+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-12",
+      "windowStart": "2026-03-28",
+      "windowEnd": "2026-04-12",
+      "windowText": "between March 28 and April 12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-12T14:58:13+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-13",
+      "windowStart": "2026-03-28",
+      "windowEnd": "2026-04-12",
+      "windowText": "between March 28 and April 12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-13T14:20:49+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-14",
+      "windowStart": "2026-03-28",
+      "windowEnd": "2026-04-08",
+      "windowText": "between March 28 and April 8",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-14T14:08:52+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-15",
+      "windowStart": "2026-03-30",
+      "windowEnd": "2026-04-08",
+      "windowText": "between March 30 and April 8",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-15T18:58:25+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-16",
+      "windowStart": "2026-03-30",
+      "windowEnd": "2026-04-08",
+      "windowText": "between March 30 and April 8",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-16T13:37:35+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-17",
+      "windowStart": "2026-03-30",
+      "windowEnd": "2026-04-08",
+      "windowText": "between March 30 and April 8",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-17T17:01:15+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-18",
+      "windowStart": "2026-04-01",
+      "windowEnd": "2026-04-10",
+      "windowText": "between April 1 and April 10",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-18T18:02:40+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-19",
+      "windowStart": "2026-04-01",
+      "windowEnd": "2026-04-10",
+      "windowText": "between April 1 and April 10",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-19T18:40:36+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-20",
+      "windowStart": "2026-04-01",
+      "windowEnd": "2026-04-10",
+      "windowText": "between April 1 and April 10",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-20T18:30:49+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-21",
+      "windowStart": "2026-04-01",
+      "windowEnd": "2026-04-10",
+      "windowText": "between April 1 and April 10",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-21T18:57:55+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-22",
+      "windowStart": "2026-04-01",
+      "windowEnd": "2026-04-10",
+      "windowText": "between April 1 and April 10",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-22T18:04:42+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-23",
+      "windowStart": "2026-04-01",
+      "windowEnd": "2026-04-10",
+      "windowText": "between April 1 and April 10",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-23T18:15:49+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-24",
+      "windowStart": "2026-04-03",
+      "windowEnd": "2026-04-13",
+      "windowText": "between April 3 and April 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-24T18:05:52+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-25",
+      "windowStart": "2026-04-03",
+      "windowEnd": "2026-04-13",
+      "windowText": "between April 3 and April 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-25T17:34:24+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-26",
+      "windowStart": "2026-04-05",
+      "windowEnd": "2026-04-15",
+      "windowText": "between April 5 and April 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-26T18:04:33+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-29",
+      "windowStart": "2026-04-06",
+      "windowEnd": "2026-04-14",
+      "windowText": "between April 6 and April 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-29T17:58:01+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-30",
+      "windowStart": "2026-04-06",
+      "windowEnd": "2026-04-14",
+      "windowText": "between April 6 and April 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-30T18:10:26+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-03-31",
+      "windowStart": "2026-04-06",
+      "windowEnd": "2026-04-14",
+      "windowText": "between April 6 and April 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-03-31T17:42:59+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-04-01",
+      "windowStart": "2026-04-06",
+      "windowEnd": "2026-04-14",
+      "windowText": "between April 6 and April 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-01T18:11:08+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-04-02",
+      "windowStart": "2026-04-06",
+      "windowEnd": "2026-04-14",
+      "windowText": "between April 6 and April 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-02T18:08:45+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-04-03",
+      "windowStart": "2026-04-06",
+      "windowEnd": "2026-04-14",
+      "windowText": "between April 6 and April 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-03T18:46:15+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-04-04",
+      "windowStart": "2026-04-06",
+      "windowEnd": "2026-04-14",
+      "windowText": "between April 6 and April 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-04T17:33:08+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-04-05",
+      "windowStart": "2026-04-06",
+      "windowEnd": "2026-04-14",
+      "windowText": "between April 6 and April 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-05T18:07:41+00:00"
+    },
+    {
+      "episode": 44,
+      "issuedDate": "2026-04-06",
+      "windowStart": "2026-04-06",
+      "windowEnd": "2026-04-14",
+      "windowText": "between April 6 and April 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-06T17:49:58+00:00"
+    },
+    {
+      "episode": 45,
+      "issuedDate": "2026-04-14",
+      "windowStart": "2026-04-19",
+      "windowEnd": "2026-04-26",
+      "windowText": "between Sunday, April 19 and Sunday, April 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-14T18:03:34+00:00"
+    },
+    {
+      "episode": 45,
+      "issuedDate": "2026-04-15",
+      "windowStart": "2026-04-19",
+      "windowEnd": "2026-04-25",
+      "windowText": "between Sunday, April 19 and Saturday, April 25",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-15T17:02:37+00:00"
+    },
+    {
+      "episode": 45,
+      "issuedDate": "2026-04-16",
+      "windowStart": "2026-04-20",
+      "windowEnd": "2026-04-25",
+      "windowText": "between Monday, April 20 and Saturday, April 25",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-16T18:16:21+00:00"
+    },
+    {
+      "episode": 45,
+      "issuedDate": "2026-04-17",
+      "windowStart": "2026-04-20",
+      "windowEnd": "2026-04-25",
+      "windowText": "between Monday, April 20 and Saturday, April 25",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-17T16:40:40+00:00"
+    },
+    {
+      "episode": 45,
+      "issuedDate": "2026-04-18",
+      "windowStart": "2026-04-20",
+      "windowEnd": "2026-04-25",
+      "windowText": "between Monday, April 20 and Saturday, April 25",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-18T17:59:06+00:00"
+    },
+    {
+      "episode": 45,
+      "issuedDate": "2026-04-19",
+      "windowStart": "2026-04-21",
+      "windowEnd": "2026-04-26",
+      "windowText": "between Tuesday, April 21, and Sunday, April 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-19T18:16:13+00:00"
+    },
+    {
+      "episode": 45,
+      "issuedDate": "2026-04-20",
+      "windowStart": "2026-04-21",
+      "windowEnd": "2026-04-26",
+      "windowText": "between Tuesday, April 21, and Sunday, April 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-20T17:47:03+00:00"
+    },
+    {
+      "episode": 45,
+      "issuedDate": "2026-04-21",
+      "windowStart": "2026-04-21",
+      "windowEnd": "2026-04-26",
+      "windowText": "between today, April 21, and Sunday, April 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-21T18:14:55+00:00"
+    },
+    {
+      "episode": 45,
+      "issuedDate": "2026-04-22",
+      "windowStart": "2026-04-22",
+      "windowEnd": "2026-04-26",
+      "windowText": "between today, April 22, and Sunday, April 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-22T17:23:37+00:00"
+    },
+    {
+      "episode": 46,
+      "issuedDate": "2026-04-27",
+      "windowStart": "2026-05-02",
+      "windowEnd": "2026-05-06",
+      "windowText": "between Saturday, May 2 and Wednesday, May 6",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-27T18:30:46+00:00"
+    },
+    {
+      "episode": 46,
+      "issuedDate": "2026-04-28",
+      "windowStart": "2026-05-02",
+      "windowEnd": "2026-05-06",
+      "windowText": "between Saturday, May 2 and Wednesday, May 6",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-28T18:35:01+00:00"
+    },
+    {
+      "episode": 46,
+      "issuedDate": "2026-04-29",
+      "windowStart": "2026-05-03",
+      "windowEnd": "2026-05-07",
+      "windowText": "between Sunday, May 3 and Thursday, May 7",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-29T14:07:09+00:00"
+    },
+    {
+      "episode": 46,
+      "issuedDate": "2026-04-30",
+      "windowStart": "2026-05-05",
+      "windowEnd": "2026-05-09",
+      "windowText": "between Tuesday, May 5 and Saturday, May 9",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-04-30T15:16:47+00:00"
+    },
+    {
+      "episode": 46,
+      "issuedDate": "2026-05-01",
+      "windowStart": "2026-05-05",
+      "windowEnd": "2026-05-09",
+      "windowText": "between Tuesday, May 5 and Saturday, May 9",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-01T15:31:35+00:00"
+    },
+    {
+      "episode": 46,
+      "issuedDate": "2026-05-02",
+      "windowStart": "2026-05-05",
+      "windowEnd": "2026-05-08",
+      "windowText": "between Tuesday, May 5 and Friday, May 8",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-02T15:56:11+00:00"
+    },
+    {
+      "episode": 46,
+      "issuedDate": "2026-05-03",
+      "windowStart": "2026-05-04",
+      "windowEnd": "2026-05-07",
+      "windowText": "between Monday, May 4 and Thursday, May 7",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-03T16:14:57+00:00"
+    },
+    {
+      "episode": 46,
+      "issuedDate": "2026-05-04",
+      "windowStart": "2026-05-04",
+      "windowEnd": "2026-05-07",
+      "windowText": "between Monday, May 4 and Thursday, May 7",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-04T17:23:57+00:00"
+    },
+    {
+      "episode": 47,
+      "issuedDate": "2026-05-08",
+      "windowStart": "2026-05-12",
+      "windowEnd": "2026-05-17",
+      "windowText": "between Tuesday, May 12 and Sunday, May 17",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-08T18:28:17+00:00"
+    },
+    {
+      "episode": 47,
+      "issuedDate": "2026-05-09",
+      "windowStart": "2026-05-11",
+      "windowEnd": "2026-05-14",
+      "windowText": "between Monday, May 11 and Thursday, May 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-09T18:38:34+00:00"
+    },
+    {
+      "episode": 47,
+      "issuedDate": "2026-05-10",
+      "windowStart": "2026-05-12",
+      "windowEnd": "2026-05-15",
+      "windowText": "between Tuesday, May 12 and Friday, May 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-10T18:37:52+00:00"
+    },
+    {
+      "episode": 47,
+      "issuedDate": "2026-05-11",
+      "windowStart": "2026-05-12",
+      "windowEnd": "2026-05-15",
+      "windowText": "between Tuesday, May 12 and Friday, May 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-11T18:37:34+00:00"
+    },
+    {
+      "episode": 47,
+      "issuedDate": "2026-05-12",
+      "windowStart": "2026-05-12",
+      "windowEnd": "2026-05-14",
+      "windowText": "between Tuesday, May 12 and Thursday, May 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-12T18:17:36+00:00"
+    },
+    {
+      "episode": 47,
+      "issuedDate": "2026-05-19",
+      "windowStart": "2026-05-22",
+      "windowEnd": "2026-05-26",
+      "windowText": "between Friday, May 22 and Tuesday, May 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-19T18:26:29+00:00"
+    },
+    {
+      "episode": 47,
+      "issuedDate": "2026-05-20",
+      "windowStart": "2026-05-23",
+      "windowEnd": "2026-05-25",
+      "windowText": "between Saturday, May 23 and Monday, May 25",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-20T18:35:56+00:00"
+    },
+    {
+      "episode": 47,
+      "issuedDate": "2026-05-21",
+      "windowStart": "2026-05-24",
+      "windowEnd": "2026-05-26",
+      "windowText": "between Sunday, May 24 and Tuesday, May 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-21T18:41:09+00:00"
+    },
+    {
+      "episode": 47,
+      "issuedDate": "2026-05-22",
+      "windowStart": "2026-05-24",
+      "windowEnd": "2026-05-27",
+      "windowText": "between Sunday, May 24 and Wednesday, May 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-22T18:46:55+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-16",
+      "windowStart": "2026-05-22",
+      "windowEnd": "2026-05-27",
+      "windowText": "between May 22 and 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-16T17:06:42+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-17",
+      "windowStart": "2026-05-22",
+      "windowEnd": "2026-05-25",
+      "windowText": "between Friday, May 22 and Monday, May 25",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-17T18:04:36+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-18",
+      "windowStart": "2026-05-22",
+      "windowEnd": "2026-05-25",
+      "windowText": "between Friday, May 22 and Monday, May 25",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-18T17:49:50+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-23",
+      "windowStart": "2026-05-24",
+      "windowEnd": "2026-05-26",
+      "windowText": "between Sunday, May 24 and Tuesday, May 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-23T18:34:28+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-24",
+      "windowStart": "2026-05-25",
+      "windowEnd": "2026-05-26",
+      "windowText": "between Monday, May 25 and Tuesday, May 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-24T18:47:16+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-26",
+      "windowStart": "2026-05-27",
+      "windowEnd": "2026-05-29",
+      "windowText": "forecast window for episode 48 fountains is now pushed to between Wednesday-Friday (May 27-29",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-26T18:24:26+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-27",
+      "windowStart": "2026-05-28",
+      "windowEnd": "2026-05-30",
+      "windowText": "forecast window for episode 48 fountains is now between Thursday-Saturday (May 28-30",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-27T16:40:48+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-28",
+      "windowStart": "2026-05-28",
+      "windowEnd": "2026-05-30",
+      "windowText": "forecast window for episode 48 fountains is now between today and Saturday (May 28-30",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-28T18:37:39+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-29",
+      "windowStart": "2026-05-29",
+      "windowEnd": "2026-05-31",
+      "windowText": "forecast window for the onset of episode 48 fountains is between today and Sunday (May 29-31",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-29T18:17:54+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-30",
+      "windowStart": "2026-05-30",
+      "windowEnd": "2026-06-01",
+      "windowText": "forecast window for the onset of episode 48 fountains is between today and Monday (May 30-June 1",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-30T17:59:30+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-31",
+      "windowStart": "2026-05-31",
+      "windowEnd": "2026-06-01",
+      "windowText": "forecast window for the onset of episode 48 fountains is between today and Monday (May 31-June 1",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-31T16:35:22+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-06-06",
+      "windowStart": "2026-06-13",
+      "windowEnd": "2026-06-19",
+      "windowText": "forecast models indicate that the onset of fountaining episode 49 is 7-13 days from now and could occur between June 13-19",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-06T17:34:00+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-06-07",
+      "windowStart": "2026-06-12",
+      "windowEnd": "2026-06-15",
+      "windowText": "between June 12 and 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-07T17:40:21+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-06-08",
+      "windowStart": "2026-06-12",
+      "windowEnd": "2026-06-15",
+      "windowText": "between June 12 and 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-08T17:10:44+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-06-09",
+      "windowStart": "2026-06-12",
+      "windowEnd": "2026-06-15",
+      "windowText": "Forecast models indicate that episode 49 of lava fountaining is likely to occur between June 12-15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-09T17:23:20+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-06-10",
+      "windowStart": "2026-06-12",
+      "windowEnd": "2026-06-15",
+      "windowText": "Forecast models indicate that episode 49 of lava fountaining is likely to occur between June 12-15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-10T18:25:02+00:00"
+    },
+    {
+      "episode": 49,
+      "issuedDate": "2026-06-11",
+      "windowStart": "2026-06-13",
+      "windowEnd": "2026-06-15",
+      "windowText": "Forecast models indicate that episode 49 of lava fountaining is likely to occur between June 13-15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-11T18:08:04+00:00"
+    },
+    {
+      "episode": 49,
+      "issuedDate": "2026-06-12",
+      "windowStart": "2026-06-13",
+      "windowEnd": "2026-06-15",
+      "windowText": "Forecast models indicate that episode 49 of lava fountaining is likely to occur between June 13-15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-12T16:41:14+00:00"
+    },
+    {
+      "episode": 49,
+      "issuedDate": "2026-06-13",
+      "windowStart": "2026-06-13",
+      "windowEnd": "2026-06-16",
+      "windowText": "Forecast models indicate that episode 49 of lava fountaining is likely to occur between June 13-16",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-13T17:25:50+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-15",
+      "windowStart": "2026-06-24",
+      "windowEnd": "2026-06-29",
+      "windowText": "between June 24 and June 29",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-15T17:43:39+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-16",
+      "windowStart": "2026-06-24",
+      "windowEnd": "2026-06-29",
+      "windowText": "between June 24 and June 29",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-16T18:04:34+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-17",
+      "windowStart": "2026-06-23",
+      "windowEnd": "2026-06-27",
+      "windowText": "between June 23 and June 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-17T17:04:13+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-18",
+      "windowStart": "2026-06-23",
+      "windowEnd": "2026-06-27",
+      "windowText": "between June 23 and June 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-18T17:36:35+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-19",
+      "windowStart": "2026-06-24",
+      "windowEnd": "2026-06-27",
+      "windowText": "between June 24 and June 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-19T18:07:18+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-20",
+      "windowStart": "2026-06-24",
+      "windowEnd": "2026-06-27",
+      "windowText": "between June 24 and June 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-20T17:32:50+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-21",
+      "windowStart": "2026-06-24",
+      "windowEnd": "2026-06-27",
+      "windowText": "between June 24 and June 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-21T18:30:26+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-22",
+      "windowStart": "2026-06-24",
+      "windowEnd": "2026-06-27",
+      "windowText": "between June 24 and June 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-22T18:27:58+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-23",
+      "windowStart": "2026-06-25",
+      "windowEnd": "2026-06-27",
+      "windowText": "between June 25 and June 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-23T17:41:48+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-24",
+      "windowStart": "2026-06-25",
+      "windowEnd": "2026-06-27",
+      "windowText": "between June 25 and June 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-24T17:22:41+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-06-25",
+      "windowStart": "2026-06-25",
+      "windowEnd": "2026-06-27",
+      "windowText": "between today June 25 and Saturday June 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-25T18:33:46+00:00"
+    },
+    {
+      "episode": 50,
+      "issuedDate": "2026-07-14",
+      "windowStart": "2026-07-14",
+      "windowEnd": "2026-07-16",
+      "windowText": "between today, July 14 and Thursday, July 16",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-14T18:06:08+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-06-28",
+      "windowStart": "2026-07-06",
+      "windowEnd": "2026-07-12",
+      "windowText": "between July 6 and July 12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-28T18:15:47+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-06-29",
+      "windowStart": "2026-07-06",
+      "windowEnd": "2026-07-12",
+      "windowText": "between July 6 and July 12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-29T18:39:59+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-06-30",
+      "windowStart": "2026-07-06",
+      "windowEnd": "2026-07-10",
+      "windowText": "between July 6 and July 10",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-30T17:36:14+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-01",
+      "windowStart": "2026-07-07",
+      "windowEnd": "2026-07-14",
+      "windowText": "between July 7 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-01T16:32:51+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-02",
+      "windowStart": "2026-07-08",
+      "windowEnd": "2026-07-15",
+      "windowText": "between July 8 and 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-02T01:35:15+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-03",
+      "windowStart": "2026-07-09",
+      "windowEnd": "2026-07-15",
+      "windowText": "between July 9 and 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-03T16:40:26+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-04",
+      "windowStart": "2026-07-09",
+      "windowEnd": "2026-07-14",
+      "windowText": "between July 9 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-04T16:43:54+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-05",
+      "windowStart": "2026-07-09",
+      "windowEnd": "2026-07-13",
+      "windowText": "between July 9 and 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-05T16:08:59+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-06",
+      "windowStart": "2026-07-09",
+      "windowEnd": "2026-07-13",
+      "windowText": "between July 9 and 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-06T17:57:41+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-07",
+      "windowStart": "2026-07-10",
+      "windowEnd": "2026-07-14",
+      "windowText": "between July 10 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-07T18:50:35+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-08",
+      "windowStart": "2026-07-11",
+      "windowEnd": "2026-07-15",
+      "windowText": "between July 11 and 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-08T18:06:11+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-09",
+      "windowStart": "2026-07-11",
+      "windowEnd": "2026-07-15",
+      "windowText": "between July 11 and 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-09T18:04:49+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-10",
+      "windowStart": "2026-07-11",
+      "windowEnd": "2026-07-13",
+      "windowText": "between July 11 and 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-10T18:16:19+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-12",
+      "windowStart": "2026-07-13",
+      "windowEnd": "2026-07-15",
+      "windowText": "between July 13 and July 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-12T18:12:20+00:00"
+    },
+    {
+      "episode": 51,
+      "issuedDate": "2026-07-13",
+      "windowStart": "2026-07-14",
+      "windowEnd": "2026-07-16",
+      "windowText": "between July 14 and July 16",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-13T16:52:32+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-17",
+      "windowStart": "2026-07-24",
+      "windowEnd": "2026-08-03",
+      "windowText": "between July 24 to August 3",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-17T17:34:50+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-18",
+      "windowStart": "2026-07-24",
+      "windowEnd": "2026-08-01",
+      "windowText": "between July 24 to August 1",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-18T17:59:45+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-19",
+      "windowStart": "2026-07-24",
+      "windowEnd": "2026-07-30",
+      "windowText": "between July 24 and July 30",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-19T18:28:36+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-20",
+      "windowStart": "2026-07-24",
+      "windowEnd": "2026-07-28",
+      "windowText": "between July 24 and July 28",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-20T15:57:32+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-21",
+      "windowStart": "2026-07-25",
+      "windowEnd": "2026-07-29",
+      "windowText": "between July 25 and July 29",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-21T18:43:32+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-22",
+      "windowStart": "2026-07-26",
+      "windowEnd": "2026-07-30",
+      "windowText": "between July 26 and July 30",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-22T18:06:41+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-23",
+      "windowStart": "2026-07-25",
+      "windowEnd": "2026-07-29",
+      "windowText": "between July 25 and July 29",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-23T18:31:05+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-24",
+      "windowStart": "2026-07-26",
+      "windowEnd": "2026-07-30",
+      "windowText": "between July 26 and July 30",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-24T18:32:47+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-25",
+      "windowStart": "2026-07-27",
+      "windowEnd": "2026-07-31",
+      "windowText": "between July 27 and July 31",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-25T18:38:59+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-26",
+      "windowStart": "2026-07-28",
+      "windowEnd": "2026-08-01",
+      "windowText": "between July 28 and August 1",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-26T18:37:35+00:00"
+    },
+    {
+      "episode": 52,
+      "issuedDate": "2026-07-27",
+      "windowStart": "2026-07-29",
+      "windowEnd": "2026-08-02",
+      "windowText": "between July 29 and August 2",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-27T18:51:54+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-07-31",
+      "windowStart": "2026-08-06",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 6 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-31T18:21:42+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-01",
+      "windowStart": "2026-08-06",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 6 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-01T18:35:33+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-02",
+      "windowStart": "2026-08-06",
+      "windowEnd": "2026-08-13",
+      "windowText": "between August 6 and 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-02T18:26:06+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-03",
+      "windowStart": "2026-08-07",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 7 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-03T18:06:47+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-04",
+      "windowStart": "2026-08-08",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 8 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-04T18:24:55+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-05",
+      "windowStart": "2026-08-08",
+      "windowEnd": "2026-08-13",
+      "windowText": "between August 8 and 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-05T14:29:44+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-06",
+      "windowStart": "2026-08-08",
+      "windowEnd": "2026-08-12",
+      "windowText": "between August 8 and 12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-06T14:47:19+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-07",
+      "windowStart": "2026-08-08",
+      "windowEnd": "2026-08-12",
+      "windowText": "between August 8 and 12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-07T01:38:51+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-08",
+      "windowStart": "2026-08-10",
+      "windowEnd": "2026-08-13",
+      "windowText": "between August 10 and 13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-08T14:37:48+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-09",
+      "windowStart": "2026-08-11",
+      "windowEnd": "2026-08-14",
+      "windowText": "between August 11 and 14",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-09T13:53:48+00:00"
     },
     {
       "episode": 53,

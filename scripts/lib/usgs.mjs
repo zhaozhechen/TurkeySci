@@ -40,9 +40,10 @@ function stripTags(value) {
 
 export function parseForecastWindow(text, issuedDate) {
   const monthPattern = MONTHS.join("|");
+  const dayName = "(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|today)";
   const patterns = [
-    new RegExp(`(?:between|from)\\s+(${monthPattern})\\s+(\\d{1,2})(?:,?\\s+(\\d{4}))?\\s+(?:and|to|[-–—])\\s+(?:(${monthPattern})\\s+)?(\\d{1,2})(?:,?\\s+(\\d{4}))?`, "i"),
-    new RegExp(`(?:window|forecast)[^.!\\n]{0,100}?(${monthPattern})\\s+(\\d{1,2})(?:,?\\s+(\\d{4}))?\\s*[-–—]\\s*(?:(${monthPattern})\\s+)?(\\d{1,2})(?:,?\\s+(\\d{4}))?`, "i"),
+    new RegExp(`(?:between|from)\\s+(?:${dayName},?\\s+)?(${monthPattern})\\s+(\\d{1,2})(?:,?\\s+(\\d{4}))?\\s*,?\\s+(?:and|to|[-–—])\\s+(?:${dayName},?\\s+)?(?:(${monthPattern})\\s+)?(\\d{1,2})(?:,?\\s+(\\d{4}))?`, "i"),
+    new RegExp(`(?:window|forecast)[^.!\\n]{0,180}?(${monthPattern})\\s+(\\d{1,2})(?:,?\\s+(\\d{4}))?\\s*[-–—]\\s*(?:(${monthPattern})\\s+)?(\\d{1,2})(?:,?\\s+(\\d{4}))?`, "i"),
   ];
   const match = patterns.map((pattern) => text.match(pattern)).find(Boolean);
   if (!match) return null;
@@ -76,8 +77,8 @@ export function parseDailyUpdate(html, sourceUrl) {
   const summaryMatch = html.match(/<span\s+name=["']synopsis["'][^>]*>([\s\S]*?)<\/span>/i);
   const summary = summaryMatch ? stripTags(summaryMatch[1]).replace(/^Summary:\s*/i, "") : "";
   const episodeMatch = text.match(/forecast window for episode\s+(\d+)/i)
-    || text.match(/episode\s+(\d+)[^\n.]{0,100}?forecast/i)
-    || text.match(/forecast[^\n.]{0,100}?episode\s+(\d+)/i);
+    || text.match(/episode\s+(\d+)[^\n.]{0,250}?forecast/i)
+    || text.match(/forecast[^\n.]{0,250}?episode\s+(\d+)/i);
   const window = parseForecastWindow(text, issuedDate);
 
   return {
