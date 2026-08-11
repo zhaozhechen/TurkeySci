@@ -1,0 +1,2046 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-11T17:26:05.152Z",
+  "forecasts": [
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-05",
+      "windowStart": "2025-09-14",
+      "windowEnd": "2025-09-21",
+      "windowText": "Sep14-21",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-06",
+      "windowStart": "2025-09-14",
+      "windowEnd": "2025-09-21",
+      "windowText": "Sep14-21",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-09",
+      "windowStart": "2025-09-17",
+      "windowEnd": "2025-09-23",
+      "windowText": "Sep17-23",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-10",
+      "windowStart": "2025-09-17",
+      "windowEnd": "2025-09-23",
+      "windowText": "Sep17-23",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-11",
+      "windowStart": "2025-09-19",
+      "windowEnd": "2025-09-22",
+      "windowText": "Sep19-22",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-12",
+      "windowStart": "2025-09-19",
+      "windowEnd": "2025-09-23",
+      "windowText": "Sep19-23",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-13",
+      "windowStart": "2025-09-19",
+      "windowEnd": "2025-09-23",
+      "windowText": "Sep19-23",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-14",
+      "windowStart": "2025-09-19",
+      "windowEnd": "2025-09-23",
+      "windowText": "Sep19-23",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-15",
+      "windowStart": "2025-09-19",
+      "windowEnd": "2025-09-23",
+      "windowText": "Sep19-23",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-16",
+      "windowStart": "2025-09-19",
+      "windowEnd": "2025-09-23",
+      "windowText": "Sep19-23",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-17",
+      "windowStart": "2025-09-17",
+      "windowEnd": "2025-09-20",
+      "windowText": "Sep17-20",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 33,
+      "issuedDate": "2025-09-18",
+      "windowStart": "2025-09-18",
+      "windowEnd": "2025-09-19",
+      "windowText": "24 hours",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-21",
+      "windowStart": "2025-09-28",
+      "windowEnd": "2025-10-04",
+      "windowText": "next week",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-22",
+      "windowStart": "2025-09-28",
+      "windowEnd": "2025-10-01",
+      "windowText": "Sep28-Oct1",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-23",
+      "windowStart": "2025-09-28",
+      "windowEnd": "2025-10-01",
+      "windowText": "Sep28-Oct1",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-24",
+      "windowStart": "2025-09-28",
+      "windowEnd": "2025-10-01",
+      "windowText": "Sep28-Oct1",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-25",
+      "windowStart": "2025-09-28",
+      "windowEnd": "2025-10-01",
+      "windowText": "Sep28-Oct1",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-26",
+      "windowStart": "2025-09-28",
+      "windowEnd": "2025-10-01",
+      "windowText": "Sep28-Oct1",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-27",
+      "windowStart": "2025-09-28",
+      "windowEnd": "2025-10-01",
+      "windowText": "Sep28-Oct1",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-28",
+      "windowStart": "2025-09-28",
+      "windowEnd": "2025-10-01",
+      "windowText": "Sep28-Oct1",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-29",
+      "windowStart": "2025-09-29",
+      "windowEnd": "2025-09-30",
+      "windowText": "Sep29-30",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 34,
+      "issuedDate": "2025-09-30",
+      "windowStart": "2025-09-30",
+      "windowEnd": "2025-09-30",
+      "windowText": "today",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-05",
+      "windowStart": "2025-10-15",
+      "windowEnd": "2025-10-20",
+      "windowText": "Oct15-20",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-06",
+      "windowStart": "2025-10-15",
+      "windowEnd": "2025-10-20",
+      "windowText": "Oct15-20",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-07",
+      "windowStart": "2025-10-15",
+      "windowEnd": "2025-10-20",
+      "windowText": "Oct15-20",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-08",
+      "windowStart": "2025-10-17",
+      "windowEnd": "2025-10-21",
+      "windowText": "Oct17-21",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-09",
+      "windowStart": "2025-10-17",
+      "windowEnd": "2025-10-21",
+      "windowText": "Oct17-21",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-10",
+      "windowStart": "2025-10-17",
+      "windowEnd": "2025-10-21",
+      "windowText": "Oct17-21",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-11",
+      "windowStart": "2025-10-17",
+      "windowEnd": "2025-10-21",
+      "windowText": "Oct17-21",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-12",
+      "windowStart": "2025-10-17",
+      "windowEnd": "2025-10-21",
+      "windowText": "Oct17-21",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-13",
+      "windowStart": "2025-10-17",
+      "windowEnd": "2025-10-21",
+      "windowText": "Oct17-21",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-14",
+      "windowStart": "2025-10-17",
+      "windowEnd": "2025-10-21",
+      "windowText": "Oct17-21",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-15",
+      "windowStart": "2025-10-17",
+      "windowEnd": "2025-10-22",
+      "windowText": "Oct17-22",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-16",
+      "windowStart": "2025-10-18",
+      "windowEnd": "2025-10-20",
+      "windowText": "Oct18-20",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 35,
+      "issuedDate": "2025-10-17",
+      "windowStart": "2025-10-17",
+      "windowEnd": "2025-10-22",
+      "windowText": "Oct17-22",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-21",
+      "windowStart": "2025-11-02",
+      "windowEnd": "2025-11-10",
+      "windowText": "Nov2-10",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-22",
+      "windowStart": "2025-11-02",
+      "windowEnd": "2025-11-10",
+      "windowText": "Nov2-10",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-23",
+      "windowStart": "2025-11-02",
+      "windowEnd": "2025-11-10",
+      "windowText": "Nov2-10",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-24",
+      "windowStart": "2025-11-06",
+      "windowEnd": "2025-11-12",
+      "windowText": "Nov6-12",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-25",
+      "windowStart": "2025-11-06",
+      "windowEnd": "2025-11-12",
+      "windowText": "Nov6-12",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-26",
+      "windowStart": "2025-11-06",
+      "windowEnd": "2025-11-09",
+      "windowText": "Nov6-9 ↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-27",
+      "windowStart": "2025-11-06",
+      "windowEnd": "2025-11-09",
+      "windowText": "Nov6-9 ↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-28",
+      "windowStart": "2025-11-06",
+      "windowEnd": "2025-11-09",
+      "windowText": "Nov6-9 ↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-29",
+      "windowStart": "2025-11-06",
+      "windowEnd": "2025-11-09",
+      "windowText": "Nov6-9↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-30",
+      "windowStart": "2025-11-06",
+      "windowEnd": "2025-11-09",
+      "windowText": "Nov6-9↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-10-31",
+      "windowStart": "2025-11-06",
+      "windowEnd": "2025-11-09",
+      "windowText": "Nov6-9 ↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-11-01",
+      "windowStart": "2025-11-05",
+      "windowEnd": "2025-11-07",
+      "windowText": "Nov5-7 ↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-11-02",
+      "windowStart": "2025-11-05",
+      "windowEnd": "2025-11-07",
+      "windowText": "Nov5-7 ↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-11-03",
+      "windowStart": "2025-11-05",
+      "windowEnd": "2025-11-07",
+      "windowText": "Nov5-7 ↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-11-04",
+      "windowStart": "2025-11-05",
+      "windowEnd": "2025-11-07",
+      "windowText": "Nov5-7 ↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-11-05",
+      "windowStart": "2025-11-05",
+      "windowEnd": "2025-11-07",
+      "windowText": "Nov5-7 ↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-11-06",
+      "windowStart": "2025-11-06",
+      "windowEnd": "2025-11-11",
+      "windowText": "11.6-11",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-11-07",
+      "windowStart": "2025-11-07",
+      "windowEnd": "2025-11-11",
+      "windowText": "11.7-11",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-11-08",
+      "windowStart": "2025-11-08",
+      "windowEnd": "2025-11-11",
+      "windowText": "11.8-11",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 36,
+      "issuedDate": "2025-11-09",
+      "windowStart": "2025-11-09",
+      "windowEnd": "2025-11-12",
+      "windowText": "11.9-12",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-12",
+      "windowStart": "2025-11-22",
+      "windowEnd": "2025-11-30",
+      "windowText": "Nov22-30",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-13",
+      "windowStart": "2025-11-22",
+      "windowEnd": "2025-11-29",
+      "windowText": "Nov22-29",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-14",
+      "windowStart": "2025-11-21",
+      "windowEnd": "2025-11-28",
+      "windowText": "Nov21-28",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-15",
+      "windowStart": "2025-11-20",
+      "windowEnd": "2025-11-24",
+      "windowText": "Nov20-24",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-16",
+      "windowStart": "2025-11-21",
+      "windowEnd": "2025-11-25",
+      "windowText": "Nov21-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-17",
+      "windowStart": "2025-11-21",
+      "windowEnd": "2025-11-25",
+      "windowText": "Nov21-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-18",
+      "windowStart": "2025-11-21",
+      "windowEnd": "2025-11-25",
+      "windowText": "Nov21-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-19",
+      "windowStart": "2025-11-21",
+      "windowEnd": "2025-11-25",
+      "windowText": "Nov21-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-20",
+      "windowStart": "2025-11-21",
+      "windowEnd": "2025-11-26",
+      "windowText": "Nov21-26",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-21",
+      "windowStart": "2025-11-23",
+      "windowEnd": "2025-11-25",
+      "windowText": "Nov23-25↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-22",
+      "windowStart": "2025-11-23",
+      "windowEnd": "2025-11-25",
+      "windowText": "Nov23-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-23",
+      "windowStart": "2025-11-23",
+      "windowEnd": "2025-11-25",
+      "windowText": "Nov23-25↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-24",
+      "windowStart": "2025-11-25",
+      "windowEnd": "2025-11-28",
+      "windowText": "Nov25-28",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 37,
+      "issuedDate": "2025-11-25",
+      "windowStart": "2025-11-25",
+      "windowEnd": "2025-11-28",
+      "windowText": "Nov26-27↑likely",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 38,
+      "issuedDate": "2025-11-29",
+      "windowStart": "2025-12-04",
+      "windowEnd": "2025-12-07",
+      "windowText": "12.4-7",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 38,
+      "issuedDate": "2025-11-30",
+      "windowStart": "2025-12-04",
+      "windowEnd": "2025-12-08",
+      "windowText": "12.4-8",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 38,
+      "issuedDate": "2025-12-01",
+      "windowStart": "2025-12-05",
+      "windowEnd": "2025-12-10",
+      "windowText": "12.5-10",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 38,
+      "issuedDate": "2025-12-02",
+      "windowStart": "2025-12-05",
+      "windowEnd": "2025-12-09",
+      "windowText": "12.5-9",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 38,
+      "issuedDate": "2025-12-03",
+      "windowStart": "2025-12-06",
+      "windowEnd": "2025-12-10",
+      "windowText": "12.6-10",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 38,
+      "issuedDate": "2025-12-04",
+      "windowStart": "2025-12-06",
+      "windowEnd": "2025-12-09",
+      "windowText": "12.6-9",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 38,
+      "issuedDate": "2025-12-05",
+      "windowStart": "2025-12-06",
+      "windowEnd": "2025-12-08",
+      "windowText": "12.6-8",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-10",
+      "windowStart": "2025-12-20",
+      "windowEnd": "2025-12-30",
+      "windowText": "Dec20-30",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-11",
+      "windowStart": "2025-12-20",
+      "windowEnd": "2025-12-30",
+      "windowText": "Dec20-30",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-12",
+      "windowStart": "2025-12-21",
+      "windowEnd": "2025-12-27",
+      "windowText": "Dec21-27",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-13",
+      "windowStart": "2025-12-22",
+      "windowEnd": "2025-12-27",
+      "windowText": "Dec22-27",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-14",
+      "windowStart": "2025-12-22",
+      "windowEnd": "2025-12-27",
+      "windowText": "Dec22-27",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-15",
+      "windowStart": "2025-12-22",
+      "windowEnd": "2025-12-27",
+      "windowText": "Dec22-27",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-16",
+      "windowStart": "2025-12-22",
+      "windowEnd": "2025-12-27",
+      "windowText": "Dec22-27",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-17",
+      "windowStart": "2025-12-22",
+      "windowEnd": "2025-12-27",
+      "windowText": "Dec22-27",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-18",
+      "windowStart": "2025-12-22",
+      "windowEnd": "2025-12-27",
+      "windowText": "Dec22-27",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-19",
+      "windowStart": "2025-12-22",
+      "windowEnd": "2025-12-27",
+      "windowText": "Dec22-27",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-20",
+      "windowStart": "2025-12-22",
+      "windowEnd": "2025-12-27",
+      "windowText": "Dec22-27",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-21",
+      "windowStart": "2025-12-23",
+      "windowEnd": "2025-12-25",
+      "windowText": "Dec23-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 39,
+      "issuedDate": "2025-12-22",
+      "windowStart": "2025-12-23",
+      "windowEnd": "2025-12-26",
+      "windowText": "Dec23-26",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2025-12-27",
+      "windowStart": "2026-01-06",
+      "windowEnd": "2026-01-13",
+      "windowText": "Jan6-13",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2025-12-28",
+      "windowStart": "2026-01-08",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan8-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2025-12-29",
+      "windowStart": "2026-01-07",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan7-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2025-12-30",
+      "windowStart": "2026-01-07",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan7-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2025-12-31",
+      "windowStart": "2026-01-07",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan7-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-01",
+      "windowStart": "2026-01-08",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan8-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-02",
+      "windowStart": "2026-01-08",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan8-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-03",
+      "windowStart": "2026-01-08",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan8-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-04",
+      "windowStart": "2026-01-08",
+      "windowEnd": "2026-01-13",
+      "windowText": "Jan8-13",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-05",
+      "windowStart": "2026-01-08",
+      "windowEnd": "2026-01-13",
+      "windowText": "Jan8-13",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-06",
+      "windowStart": "2026-01-09",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan9-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-07",
+      "windowStart": "2026-01-09",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan9-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-08",
+      "windowStart": "2026-01-10",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan10-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-09",
+      "windowStart": "2026-01-10",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan10-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-10",
+      "windowStart": "2026-01-10",
+      "windowEnd": "2026-01-14",
+      "windowText": "Jan10-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 40,
+      "issuedDate": "2026-01-11",
+      "windowStart": "2026-01-11",
+      "windowEnd": "2026-01-17",
+      "windowText": "Jan11-17",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-15",
+      "windowStart": "2026-01-19",
+      "windowEnd": "2026-01-25",
+      "windowText": "Jan19-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-16",
+      "windowStart": "2026-01-20",
+      "windowEnd": "2026-01-25",
+      "windowText": "Jan20-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-17",
+      "windowStart": "2026-01-20",
+      "windowEnd": "2026-01-25",
+      "windowText": "Jan20-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-18",
+      "windowStart": "2026-01-21",
+      "windowEnd": "2026-01-25",
+      "windowText": "Jan21-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-19",
+      "windowStart": "2026-01-21",
+      "windowEnd": "2026-01-25",
+      "windowText": "Jan21-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-20",
+      "windowStart": "2026-01-22",
+      "windowEnd": "2026-01-26",
+      "windowText": "Jan22-26",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-21",
+      "windowStart": "2026-01-23",
+      "windowEnd": "2026-01-26",
+      "windowText": "Jan23-26",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-22",
+      "windowStart": "2026-01-23",
+      "windowEnd": "2026-01-25",
+      "windowText": "Jan23-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-23",
+      "windowStart": "2026-01-23",
+      "windowEnd": "2026-01-25",
+      "windowText": "Jan23-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 41,
+      "issuedDate": "2026-01-24",
+      "windowStart": "2026-01-24",
+      "windowEnd": "2026-01-25",
+      "windowText": "Jan24-25",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-01-27",
+      "windowStart": "2026-02-10",
+      "windowEnd": "2026-02-20",
+      "windowText": "Feb10-20",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-01-28",
+      "windowStart": "2026-02-09",
+      "windowEnd": "2026-02-20",
+      "windowText": "Feb9-20",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-01-29",
+      "windowStart": "2026-02-09",
+      "windowEnd": "2026-02-20",
+      "windowText": "Feb9-20",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-01-30",
+      "windowStart": "2026-02-09",
+      "windowEnd": "2026-02-18",
+      "windowText": "Feb9-18",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-01-31",
+      "windowStart": "2026-02-10",
+      "windowEnd": "2026-02-16",
+      "windowText": "Feb10-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-01",
+      "windowStart": "2026-02-11",
+      "windowEnd": "2026-02-16",
+      "windowText": "Feb11-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-02",
+      "windowStart": "2026-02-11",
+      "windowEnd": "2026-02-16",
+      "windowText": "Feb11-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-03",
+      "windowStart": "2026-02-11",
+      "windowEnd": "2026-02-16",
+      "windowText": "Feb11-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-04",
+      "windowStart": "2026-02-11",
+      "windowEnd": "2026-02-16",
+      "windowText": "Feb11-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-05",
+      "windowStart": "2026-02-11",
+      "windowEnd": "2026-02-16",
+      "windowText": "Feb11-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-06",
+      "windowStart": "2026-02-11",
+      "windowEnd": "2026-02-15",
+      "windowText": "Feb11-15",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-07",
+      "windowStart": "2026-02-11",
+      "windowEnd": "2026-02-15",
+      "windowText": "Feb11-15",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-08",
+      "windowStart": "2026-02-11",
+      "windowEnd": "2026-02-14",
+      "windowText": "Feb11-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-09",
+      "windowStart": "2026-02-11",
+      "windowEnd": "2026-02-14",
+      "windowText": "Feb11-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-10",
+      "windowStart": "2026-02-12",
+      "windowEnd": "2026-02-15",
+      "windowText": "Feb12-15",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-11",
+      "windowStart": "2026-02-14",
+      "windowEnd": "2026-02-17",
+      "windowText": "Feb14-17",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-12",
+      "windowStart": "2026-02-14",
+      "windowEnd": "2026-02-16",
+      "windowText": "Feb14-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-13",
+      "windowStart": "2026-02-14",
+      "windowEnd": "2026-02-17",
+      "windowText": "Feb14-17",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-14",
+      "windowStart": "2026-02-15",
+      "windowEnd": "2026-02-17",
+      "windowText": "Feb15-17",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 42,
+      "issuedDate": "2026-02-15",
+      "windowStart": "2026-02-15",
+      "windowEnd": "2026-02-16",
+      "windowText": "Feb15-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-17",
+      "windowStart": "2026-03-02",
+      "windowEnd": "2026-03-14",
+      "windowText": "Mar2-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-18",
+      "windowStart": "2026-03-02",
+      "windowEnd": "2026-03-14",
+      "windowText": "Mar2-14",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-19",
+      "windowStart": "2026-03-05",
+      "windowEnd": "2026-03-20",
+      "windowText": "Mar5-20",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-20",
+      "windowStart": "2026-03-05",
+      "windowEnd": "2026-03-15",
+      "windowText": "Mar5-15",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-21",
+      "windowStart": "2026-03-05",
+      "windowEnd": "2026-03-15",
+      "windowText": "Mar5-15",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-22",
+      "windowStart": "2026-03-05",
+      "windowEnd": "2026-03-15",
+      "windowText": "Mar5-15",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-23",
+      "windowStart": "2026-03-06",
+      "windowEnd": "2026-03-16",
+      "windowText": "Mar6-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-24",
+      "windowStart": "2026-03-06",
+      "windowEnd": "2026-03-16",
+      "windowText": "Mar6-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-25",
+      "windowStart": "2026-03-06",
+      "windowEnd": "2026-03-16",
+      "windowText": "Mar6-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-26",
+      "windowStart": "2026-03-06",
+      "windowEnd": "2026-03-16",
+      "windowText": "Mar6-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-27",
+      "windowStart": "2026-03-06",
+      "windowEnd": "2026-03-16",
+      "windowText": "Mar6-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-02-28",
+      "windowStart": "2026-03-08",
+      "windowEnd": "2026-03-15",
+      "windowText": "Mar8-15",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-01",
+      "windowStart": "2026-03-08",
+      "windowEnd": "2026-03-15",
+      "windowText": "Mar8-15",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-02",
+      "windowStart": "2026-03-08",
+      "windowEnd": "2026-03-15",
+      "windowText": "Mar8-15",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-03",
+      "windowStart": "2026-03-10",
+      "windowEnd": "2026-03-16",
+      "windowText": "Mar10-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 43,
+      "issuedDate": "2026-03-04",
+      "windowStart": "2026-03-10",
+      "windowEnd": "2026-03-16",
+      "windowText": "Mar10-16",
+      "source": "Legacy USGS transcription",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-10",
+      "windowStart": "2026-08-12",
+      "windowEnd": "2026-08-15",
+      "windowText": "between August 12 and 15",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    }
+  ],
+  "eruptions": [
+    {
+      "episode": 1,
+      "startDate": "2024-12-23",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 2,
+      "startDate": "2024-12-24",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 3,
+      "startDate": "2024-12-26",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 4,
+      "startDate": "2025-01-15",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 5,
+      "startDate": "2025-01-22",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 6,
+      "startDate": "2025-01-24",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 7,
+      "startDate": "2025-01-27",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 8,
+      "startDate": "2025-02-03",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 9,
+      "startDate": "2025-02-11",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 10,
+      "startDate": "2025-02-19",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 11,
+      "startDate": "2025-02-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 12,
+      "startDate": "2025-03-04",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 13,
+      "startDate": "2025-03-11",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 14,
+      "startDate": "2025-03-19",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 15,
+      "startDate": "2025-03-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 16,
+      "startDate": "2025-03-31",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 17,
+      "startDate": "2025-04-07",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 18,
+      "startDate": "2025-04-22",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 19,
+      "startDate": "2025-05-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 20,
+      "startDate": "2025-05-06",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 21,
+      "startDate": "2025-05-11",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 22,
+      "startDate": "2025-05-16",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 23,
+      "startDate": "2025-05-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 24,
+      "startDate": "2025-06-04",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 25,
+      "startDate": "2025-06-11",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 26,
+      "startDate": "2025-06-20",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 27,
+      "startDate": "2025-06-29",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 28,
+      "startDate": "2025-07-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 29,
+      "startDate": "2025-07-20",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 30,
+      "startDate": "2025-08-06",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 31,
+      "startDate": "2025-08-22",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 32,
+      "startDate": "2025-09-02",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 33,
+      "startDate": "2025-09-19",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 34,
+      "startDate": "2025-10-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 35,
+      "startDate": "2025-10-17",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 36,
+      "startDate": "2025-11-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 37,
+      "startDate": "2025-11-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 38,
+      "startDate": "2025-12-06",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 39,
+      "startDate": "2025-12-23",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 40,
+      "startDate": "2026-01-12",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 41,
+      "startDate": "2026-01-24",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 42,
+      "startDate": "2026-02-15",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 43,
+      "startDate": "2026-03-10",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 44,
+      "startDate": "2026-04-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 45,
+      "startDate": "2026-04-23",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 46,
+      "startDate": "2026-05-05",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 47,
+      "startDate": "2026-05-14",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 48,
+      "startDate": "2026-06-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 49,
+      "startDate": "2026-06-14",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 50,
+      "startDate": "2026-06-27",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 51,
+      "startDate": "2026-07-15",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 52,
+      "startDate": "2026-07-28",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 15,
+      "startDate": "2024-03-26",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 16,
+      "startDate": "2025-04-02",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 23,
+      "startDate": "2025-05-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 28,
+      "startDate": "2025-07-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 34,
+      "startDate": "2025-10-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 36,
+      "startDate": "2025-11-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 38,
+      "startDate": "2025-12-06",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 41,
+      "startDate": "2026-01-24",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 42,
+      "startDate": "2026-02-15",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 43,
+      "startDate": "2026-03-10",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 44,
+      "startDate": "2026-04-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 45,
+      "startDate": "2026-04-23",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 46,
+      "startDate": "2026-05-05",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 47,
+      "startDate": "2026-05-14",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 48,
+      "startDate": "2026-06-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 1,
+      "startDate": "2024-12-23",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 2,
+      "startDate": "2024-12-24",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 3,
+      "startDate": "2024-12-26",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 4,
+      "startDate": "2025-01-15",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 5,
+      "startDate": "2025-01-22",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 6,
+      "startDate": "2025-01-24",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 7,
+      "startDate": "2025-01-27",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 8,
+      "startDate": "2025-02-03",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 9,
+      "startDate": "2025-02-11",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 10,
+      "startDate": "2025-02-19",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 11,
+      "startDate": "2025-02-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 12,
+      "startDate": "2025-03-04",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 13,
+      "startDate": "2025-03-11",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 14,
+      "startDate": "2025-03-19",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 15,
+      "startDate": "2025-03-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 16,
+      "startDate": "2025-03-31",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 17,
+      "startDate": "2025-04-07",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 18,
+      "startDate": "2025-04-22",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 19,
+      "startDate": "2025-05-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 20,
+      "startDate": "2025-05-06",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 21,
+      "startDate": "2025-05-11",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 22,
+      "startDate": "2025-05-16",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 23,
+      "startDate": "2025-05-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 24,
+      "startDate": "2025-06-04",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 25,
+      "startDate": "2025-06-11",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 26,
+      "startDate": "2025-06-20",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 27,
+      "startDate": "2025-06-29",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 28,
+      "startDate": "2025-07-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 29,
+      "startDate": "2025-07-20",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 30,
+      "startDate": "2025-08-06",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 31,
+      "startDate": "2025-08-22",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 32,
+      "startDate": "2025-09-02",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 33,
+      "startDate": "2025-09-19",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 34,
+      "startDate": "2025-10-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 35,
+      "startDate": "2025-10-17",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 36,
+      "startDate": "2025-11-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 37,
+      "startDate": "2025-11-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 38,
+      "startDate": "2025-12-06",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 39,
+      "startDate": "2025-12-23",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 40,
+      "startDate": "2026-01-12",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 41,
+      "startDate": "2026-01-24",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 42,
+      "startDate": "2026-02-15",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 43,
+      "startDate": "2026-03-10",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 44,
+      "startDate": "2026-04-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 45,
+      "startDate": "2026-04-23",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 46,
+      "startDate": "2026-05-05",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 47,
+      "startDate": "2026-05-14",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 48,
+      "startDate": "2026-06-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 49,
+      "startDate": "2026-06-14",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 50,
+      "startDate": "2026-06-27",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 51,
+      "startDate": "2026-07-15",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 52,
+      "startDate": "2026-07-28",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 15,
+      "startDate": "2024-03-26",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 16,
+      "startDate": "2025-04-02",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 23,
+      "startDate": "2025-05-25",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 28,
+      "startDate": "2025-07-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 34,
+      "startDate": "2025-10-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 36,
+      "startDate": "2025-11-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 38,
+      "startDate": "2025-12-06",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 41,
+      "startDate": "2026-01-24",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 42,
+      "startDate": "2026-02-15",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 43,
+      "startDate": "2026-03-10",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 44,
+      "startDate": "2026-04-09",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 45,
+      "startDate": "2026-04-23",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 46,
+      "startDate": "2026-05-05",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 47,
+      "startDate": "2026-05-14",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 48,
+      "startDate": "2026-06-01",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    }
+  ]
+}

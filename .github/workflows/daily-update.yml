@@ -1,0 +1,52 @@
+name: Update TurkeySci forecast
+
+on:
+  schedule:
+    # 11:30 a.m. Hawaiʻi Standard Time (UTC-10), after the usual USGS daily update.
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: turkeysci-daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Enable pnpm
+        run: corepack enable
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Read USGS and update model
+        run: pnpm data:update
+
+      - name: Verify parser, model, and portal build
+        run: |
+          pnpm test:model
+          pnpm build
+
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet -- public/data; then
+            echo "USGS data is unchanged."
+            exit 0
+          fi
+          git config user.name "turkeysci-bot"
+          git config user.email "turkeysci-bot@users.noreply.github.com"
+          git add public/data
+          git commit -m "data: refresh USGS forecast"
+          git push

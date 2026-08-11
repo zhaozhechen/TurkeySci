@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-11T17:26:05.154Z",
+  "currentEpisode": 53,
+  "latestCompletedEpisode": 52,
+  "usgs": {
+    "issuedDate": "2026-08-10",
+    "issuedLabel": "Monday, August 10, 2026, 9:59 AM HST",
+    "episode": 53,
+    "alertLevel": "ADVISORY",
+    "aviationColor": "YELLOW",
+    "summary": "Kīlauea volcano is not erupting. Models indicate another episode is likely with the current forecast between August 12 and 15.",
+    "forecastWindow": {
+      "start": "2026-08-12",
+      "end": "2026-08-15",
+      "text": "between August 12 and 15"
+    },
+    "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+  },
+  "model": {
+    "mapDate": "2026-08-13",
+    "meanDate": "2026-08-13",
+    "ci50": [
+      "2026-08-12",
+      "2026-08-14"
+    ],
+    "ci95": [
+      "2026-08-09",
+      "2026-08-17"
+    ],
+    "observations": 1,
+    "parameters": {
+      "sigmaScale": 2,
+      "recencyStrength": 2,
+      "narrowStrength": 1.5,
+      "padDays": 7
+    },
+    "distribution": [
+      {
+        "date": "2026-08-05",
+        "probability": 0.00006692
+      },
+      {
+        "date": "2026-08-06",
+        "probability": 0.00043635
+      },
+      {
+        "date": "2026-08-07",
+        "probability": 0.00221595
+      },
+      {
+        "date": "2026-08-08",
+        "probability": 0.00876423
+      },
+      {
+        "date": "2026-08-09",
+        "probability": 0.02699574
+      },
+      {
+        "date": "2026-08-10",
+        "probability": 0.06475942
+      },
+      {
+        "date": "2026-08-11",
+        "probability": 0.12098652
+      },
+      {
+        "date": "2026-08-12",
+        "probability": 0.17603435
+      },
+      {
+        "date": "2026-08-13",
+        "probability": 0.19947305
+      },
+      {
+        "date": "2026-08-14",
+        "probability": 0.17603435
+      },
+      {
+        "date": "2026-08-15",
+        "probability": 0.12098652
+      },
+      {
+        "date": "2026-08-16",
+        "probability": 0.06475942
+      },
+      {
+        "date": "2026-08-17",
+        "probability": 0.02699574
+      },
+      {
+        "date": "2026-08-18",
+        "probability": 0.00876423
+      },
+      {
+        "date": "2026-08-19",
+        "probability": 0.00221595
+      },
+      {
+        "date": "2026-08-20",
+        "probability": 0.00043635
+      },
+      {
+        "date": "2026-08-21",
+        "probability": 0.00006692
+      },
+      {
+        "date": "2026-08-22",
+        "probability": 0.00000799
+      }
+    ]
+  },
+  "recentForecasts": [
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-10",
+      "windowStart": "2026-08-12",
+      "windowEnd": "2026-08-15",
+      "windowText": "between August 12 and 15",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    }
+  ],
+  "methodology": "Original TurkeySci Gaussian-window Bayesian model with recency and narrowness weighting"
+}
