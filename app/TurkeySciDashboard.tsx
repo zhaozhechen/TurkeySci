@@ -7,6 +7,7 @@ const DAY_MS = 86_400_000;
 const GALLERY = Array.from({ length: 7 }, (_, index) => ({
   src: `/gallery/kilauea-${index + 1}.jpg`,
   alt: `Kīlauea eruption photograph ${index + 1} of 7`,
+  portrait: [0, 5, 6].includes(index),
 }));
 
 function dayNumber(value: string) {
@@ -37,7 +38,7 @@ function probabilityLabel(value: number) {
 function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <span className={`brand ${compact ? "compact" : ""}`}>
-      <img src="/turkeysci-logo-v2.png" alt="" />
+      <img src="/turkeysci-logo.png" alt="" />
       <span>TurkeySci</span>
     </span>
   );
@@ -60,13 +61,10 @@ function GalleryBand() {
     <section className="gallery-band" aria-label="Kīlauea gallery">
       <div className="gallery-stage">
         {GALLERY.map((photo, index) => (
-          <img
-            key={photo.src}
-            className={index === active ? "active" : ""}
-            src={photo.src}
-            alt={photo.alt}
-            loading={index === 0 ? "eager" : "lazy"}
-          />
+          <div key={photo.src} className={`gallery-slide ${photo.portrait ? "portrait" : ""} ${index === active ? "active" : ""}`}>
+            <img className="gallery-backdrop" src={photo.src} alt="" aria-hidden="true" />
+            <img className="gallery-photo" src={photo.src} alt={photo.alt} loading={index === 0 ? "eager" : "lazy"} />
+          </div>
         ))}
         <div className="gallery-shade" />
         <div className="gallery-copy">
@@ -93,12 +91,12 @@ function GalleryBand() {
 }
 
 function ForecastEvolution({ forecasts, episode, referenceDate }: { forecasts: Forecast[]; episode: number; referenceDate: string }) {
-  const rows = [...forecasts].sort((a, b) => a.issuedDate.localeCompare(b.issuedDate));
+  const rows = [...forecasts].sort((a, b) => b.issuedDate.localeCompare(a.issuedDate));
   if (!rows.length) return <p className="empty-state">Waiting for the first USGS forecast window for episode {episode}.</p>;
   const min = Math.min(...rows.map((row) => dayNumber(row.windowStart))) - 1;
   const max = Math.max(...rows.map((row) => dayNumber(row.windowEnd))) + 1;
   const days = Array.from({ length: max - min + 1 }, (_, index) => isoDay(min + index));
-  const latestIssued = rows.at(-1)?.issuedDate;
+  const latestIssued = rows[0]?.issuedDate;
   const highlightedDate = rows.some((row) => row.issuedDate === referenceDate) ? referenceDate : latestIssued;
   const span = Math.max(days.length, 1);
   const chartStyle = { "--evolution-days": days.length } as CSSProperties;
@@ -139,19 +137,20 @@ function ForecastEvolution({ forecasts, episode, referenceDate }: { forecasts: F
 function EruptionTimeline({ eruptions }: { eruptions: PortalData["previousEruptions"] }) {
   const sorted = [...eruptions].sort((a, b) => a.episode - b.episode);
   const newestEpisode = sorted.at(-1)?.episode || 0;
-  const recent = sorted.filter((item) => item.episode >= newestEpisode - 9);
+  const recent = sorted.filter((item) => item.episode >= newestEpisode - 9).reverse();
   return (
     <div className="eruption-scroll">
       <div className="eruption-timeline" role="img" aria-label="Timeline of the ten most recent completed Kīlauea eruption episodes">
         <div className="timeline-line" aria-hidden="true" />
         {recent.map((item, index) => {
-          const previous = recent[index - 1];
-          const gap = previous ? dayNumber(item.startDate) - dayNumber(previous.startDate) : null;
+          const older = recent[index + 1];
+          const gap = older ? dayNumber(item.startDate) - dayNumber(older.startDate) : null;
           return (
-            <div className="timeline-event" key={item.episode}>
+            <div className={`timeline-event ${index === 0 ? "latest" : ""}`} key={item.episode}>
               {gap !== null && <span className="timeline-gap">{gap} days</span>}
               <span className="timeline-dot" />
               <strong>Episode {item.episode}</strong>
+              {index === 0 && <small>Latest completed</small>}
               <time dateTime={item.startDate}>{dateLabel(item.startDate, { month: "long", year: "numeric" })}</time>
             </div>
           );
@@ -178,11 +177,21 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
     [data.model],
   );
   const chronologicalForecasts = useMemo(
-    () => [...data.recentForecasts].sort((a, b) => a.issuedDate.localeCompare(b.issuedDate)),
+    () => [...data.recentForecasts].sort((a, b) => b.issuedDate.localeCompare(a.issuedDate)),
     [data.recentForecasts],
   );
   const usgsWindow = data.usgs.forecastWindow;
   const referenceDate = data.generatedAt.slice(0, 10);
+  const visibleDistribution = useMemo(() => {
+    if (!data.model) return [];
+    const points = data.model.distribution;
+    const important = points
+      .map((point, index) => ({ point, index }))
+      .filter(({ point }) => point.probability >= .000001 || point.date === data.model?.mapDate || point.date === usgsWindow?.start || point.date === usgsWindow?.end)
+      .map(({ index }) => index);
+    if (!important.length) return points;
+    return points.slice(Math.max(0, Math.min(...important) - 1), Math.min(points.length, Math.max(...important) + 2));
+  }, [data.model, usgsWindow]);
 
   return (
     <main>
@@ -193,6 +202,7 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
           <a href="#evolution">Evolution</a>
           <a href="#history">History</a>
           <a href="#method">Method</a>
+          <a href="#contact">Contact</a>
         </nav>
         <a className="source-link usgs-link" href={data.usgs.sourceUrl} target="_blank" rel="noreferrer">Official USGS update ↗</a>
       </header>
@@ -201,7 +211,7 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
 
       <section className="hero" id="top">
         <div className="hero-rings" aria-hidden="true"><span /><span /><span /></div>
-        <img className="hero-logo" src="/turkeysci-logo-v2.png" alt="Turkey with a volcano on its back, the TurkeySci logo" />
+        <img className="hero-logo" src="/turkeysci-logo.png" alt="Turkey with a volcano on its back, the TurkeySci logo" />
         <div className="episode-badge"><span>Current episode</span><strong>{data.currentEpisode}</strong></div>
         <h1>When might<br />Kīlauea erupt next?</h1>
         <p className="hero-intro">An independent Bayesian model that combines the complete sequence of USGS forecast windows for the active episode.</p>
@@ -242,21 +252,21 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
           </div>
           <p className="figure-intro">Every date is shown in order. Taller orange bars mean greater relative support from the TurkeySci model.</p>
           <div className="distribution-scroll">
-            <div className="chart" style={{ minWidth: `${Math.max(760, data.model.distribution.length * 58)}px` }} role="img" aria-label={`Daily probability distribution peaking on ${longDate(data.model.mapDate)}; current USGS window appears behind the TurkeySci bars`}>
+            <div className="chart" style={{ minWidth: `${Math.max(620, visibleDistribution.length * 78)}px` }} role="img" aria-label={`Daily probability distribution peaking on ${longDate(data.model.mapDate)}; current USGS window appears behind the TurkeySci bars`}>
               {usgsWindow && (() => {
-                const start = data.model!.distribution.findIndex((point) => point.date === usgsWindow.start);
-                const end = data.model!.distribution.findIndex((point) => point.date === usgsWindow.end);
+                const start = visibleDistribution.findIndex((point) => point.date === usgsWindow.start);
+                const end = visibleDistribution.findIndex((point) => point.date === usgsWindow.end);
                 if (start < 0 || end < 0) return null;
-                return <span className="usgs-band" style={{ left: `${(start / data.model!.distribution.length) * 100}%`, width: `${((end - start + 1) / data.model!.distribution.length) * 100}%` }}><b>USGS window</b></span>;
+                return <span className="usgs-band" style={{ left: `${(start / visibleDistribution.length) * 100}%`, width: `${((end - start + 1) / visibleDistribution.length) * 100}%` }}><b>USGS window</b></span>;
               })()}
-              {data.model.distribution.map((point) => {
+              {visibleDistribution.map((point) => {
                 const isPeak = point.date === data.model?.mapDate;
                 const showValue = point.probability >= .001 || isPeak;
                 return <div className={`bar-column ${isPeak ? "peak" : ""}`} key={point.date}>
                   <span className="bar-value">{showValue ? probabilityLabel(point.probability) : ""}</span>
                   <div className="bar-track"><div className="bar" style={{ height: `${Math.max((point.probability / peak) * 100, .35)}%` }} /></div>
                   <time className="bar-date" dateTime={point.date}>{dateLabel(point.date)}</time>
-                  {isPeak && <span className="prediction-marker"><b>TurkeySci</b><small>most likely</small></span>}
+                  {isPeak && <span className="prediction-marker">TurkeySci peak</span>}
                 </div>;
               })}
             </div>
@@ -296,6 +306,14 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
           <p>TurkeySci is an independent research project by <strong>Endlessczz</strong>. It makes the evolution of public USGS forecasts easier to see and provides a reproducible Bayesian synthesis of those forecasts.</p>
           <p className="warning"><strong>Experimental model—not an official warning system.</strong> Never use TurkeySci for safety, evacuation, travel, or emergency decisions. Follow USGS, Hawaiʻi County Civil Defense, and Hawaiʻi Volcanoes National Park guidance.</p>
           <div className="about-links"><a className="usgs-link" href={data.usgs.sourceUrl} target="_blank" rel="noreferrer">Read the latest USGS update ↗</a></div>
+        </div>
+      </section>
+
+      <section className="contact-section" id="contact">
+        <div className="contact-label">Questions · Ideas · Collaboration</div>
+        <div className="contact-copy">
+          <div><span>Contact</span><h2>Let’s talk about volcano forecasting.</h2></div>
+          <div className="contact-person"><strong>Endlessczz</strong><a href="mailto:endlessczz@gmail.com">endlessczz@gmail.com</a><p>Questions about TurkeySci, suggestions for the public portal, and research collaboration inquiries are welcome.</p></div>
         </div>
       </section>
 

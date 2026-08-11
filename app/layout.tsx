@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "An automatically updated Bayesian view of Kīlauea's next lava-fountaining episode, based on official USGS forecast windows.",
   metadataBase: new URL("https://turkeysci-kilauea.endlessczz.chatgpt.site"),
   authors: [{ name: "Endlessczz" }],
-  icons: { icon: "/turkeysci-logo-v2.png", shortcut: "/turkeysci-logo-v2.png" },
+  icons: { icon: "/turkeysci-logo.png", shortcut: "/turkeysci-logo.png" },
   openGraph: {
     title: "TurkeySci · Kīlauea eruption timing",
     description: "A transparent Bayesian outlook, automatically updated from USGS forecast windows.",
