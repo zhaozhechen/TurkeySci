@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T22:13:34.637Z",
+  "updatedAt": "2026-08-12T22:11:59.454Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2483,8 +2483,17 @@
       "windowStart": "2026-08-13",
       "windowEnd": "2026-08-17",
       "windowText": "between August 13 and 17",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-11T14:12:36+00:00"
+    },
+    {
+      "episode": 53,
+      "issuedDate": "2026-08-12",
+      "windowStart": "2026-08-02",
+      "windowEnd": "2026-08-03",
+      "windowText": "from August 2 to 3",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-12T16:32:18+00:00"
     }
   ],
   "eruptions": [
