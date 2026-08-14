@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-13T22:12:25.978Z",
+  "updatedAt": "2026-08-14T21:51:19.253Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2755,6 +2755,11 @@
     {
       "episode": 52,
       "startDate": "2026-07-28",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
+      "episode": 53,
+      "startDate": "2026-08-12",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
     }
   ]
