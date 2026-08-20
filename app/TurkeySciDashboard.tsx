@@ -42,6 +42,17 @@ function probabilityLabel(value: number) {
   return `${(value * 100).toFixed(value >= 0.1 ? 1 : 2)}%`;
 }
 
+function todayInHawaii() {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    timeZone: "Pacific/Honolulu",
+  }).formatToParts(new Date());
+  const value = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${value.year}-${value.month}-${value.day}`;
+}
+
 function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <span className={`brand ${compact ? "compact" : ""}`}>
@@ -189,16 +200,17 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
   );
   const usgsWindow = data.usgs.forecastWindow;
   const referenceDate = data.generatedAt.slice(0, 10);
+  const today = todayInHawaii();
   const visibleDistribution = useMemo(() => {
     if (!data.model) return [];
-    const points = data.model.distribution;
+    const points = data.model.distribution.filter((point) => point.date >= today);
     const important = points
       .map((point, index) => ({ point, index }))
       .filter(({ point }) => point.probability >= .000001 || point.date === data.model?.mapDate || point.date === usgsWindow?.start || point.date === usgsWindow?.end)
       .map(({ index }) => index);
     if (!important.length) return points;
     return points.slice(Math.max(0, Math.min(...important) - 1), Math.min(points.length, Math.max(...important) + 2));
-  }, [data.model, usgsWindow]);
+  }, [data.model, today, usgsWindow]);
 
   return (
     <main>
@@ -257,12 +269,15 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
             <div><div className="card-kicker">Combined daily forecasts</div><h2 id="distribution-title">Relative probability by date</h2></div>
             <div className="chart-legends"><span><i className="model-key" />TurkeySci probability</span><span><i className="usgs-key" />Latest USGS window</span></div>
           </div>
-          <p className="figure-intro">Every date is shown in order. Taller orange bars mean greater relative support from the TurkeySci model.</p>
+          <p className="figure-intro">The chart starts with today and shows future dates only. Taller orange bars mean greater relative support from the TurkeySci model.</p>
           <div className="distribution-scroll">
             <div className="chart" style={{ minWidth: `${Math.max(620, visibleDistribution.length * 78)}px` }} role="img" aria-label={`Daily probability distribution peaking on ${longDate(data.model.mapDate)}; current USGS window appears behind the TurkeySci bars`}>
               {usgsWindow && (() => {
-                const start = visibleDistribution.findIndex((point) => point.date === usgsWindow.start);
-                const end = visibleDistribution.findIndex((point) => point.date === usgsWindow.end);
+                const start = visibleDistribution.findIndex((point) => point.date >= usgsWindow.start);
+                let end = -1;
+                visibleDistribution.forEach((point, index) => {
+                  if (point.date <= usgsWindow.end) end = index;
+                });
                 if (start < 0 || end < 0) return null;
                 return <span className="usgs-band" style={{ left: `${(start / visibleDistribution.length) * 100}%`, width: `${((end - start + 1) / visibleDistribution.length) * 100}%` }}><b>USGS window</b></span>;
               })()}

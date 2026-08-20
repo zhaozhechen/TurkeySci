@@ -23,6 +23,7 @@ test("server-renders the TurkeySci portal and safety context", async () => {
   assert.match(html, /turkeysci-logo\.png/);
   assert.match(html, /Kīlauea gallery/);
   assert.match(html, /Most likely 50% range/);
+  assert.match(html, /The chart starts with today and shows future dates only/);
   assert.match(html, /endlessczz@gmail\.com/);
   assert.match(html, /Remote sensing is next/);
   assert.doesNotMatch(html, /credible interval/i);
