@@ -50,3 +50,25 @@ test("parses weekday-qualified forecast windows from archived notices", () => {
   assert.equal(result.forecastWindow.start, "2026-05-04");
   assert.equal(result.forecastWindow.end, "2026-05-07");
 });
+
+test("parses the newer USGS episode-likely wording", () => {
+  const html = `<b>Thursday, August 20, 2026, 9:06 AM HST</b>
+    Current Volcano Alert Level: ADVISORY<br>Current Aviation Color Code: YELLOW
+    <span name="synopsis"><b>Summary:</b> Kīlauea volcano is not erupting. Data indicate the onset
+    of the next fountaining episode is likely between August 22 and August 26.</span>
+    <p>The abrupt switch from summit deflation to inflation at the end of episode 53 along with glow
+    from the vents indicates that episode 54 fountaining is likely.</p>`;
+  const result = parseDailyUpdate(html, "https://example.test");
+  assert.equal(result.episode, 54);
+  assert.equal(result.forecastWindow.start, "2026-08-22");
+  assert.equal(result.forecastWindow.end, "2026-08-26");
+});
+
+test("parses the official Episode 53 start date", () => {
+  const html = `<h2>Timeline of Eruptive Episodes</h2><table><tbody>
+    <tr><td>53</td><td>August 12, 2026 - 3:45 p.m.</td><td>August 13, 2026 - 1:23 a.m.</td></tr>
+  </tbody></table>`;
+  assert.deepEqual(parseEruptionTimeline(html, "https://example.test"), [
+    { episode: 53, startDate: "2026-08-12", sourceUrl: "https://example.test" },
+  ]);
+});

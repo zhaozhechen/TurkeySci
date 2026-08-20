@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T21:52:04.236Z",
+  "updatedAt": "2026-08-20T21:04:44.665Z",
   "forecasts": [
     {
       "episode": 33,
@@ -1894,6 +1894,42 @@
     },
     {
       "episode": 48,
+      "issuedDate": "2026-05-19",
+      "windowStart": "2026-05-22",
+      "windowEnd": "2026-05-26",
+      "windowText": "between Friday, May 22 and Tuesday, May 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-19T18:26:29+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-20",
+      "windowStart": "2026-05-23",
+      "windowEnd": "2026-05-25",
+      "windowText": "between Saturday, May 23 and Monday, May 25",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-20T18:35:56+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-21",
+      "windowStart": "2026-05-24",
+      "windowEnd": "2026-05-26",
+      "windowText": "between Sunday, May 24 and Tuesday, May 26",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-21T18:41:09+00:00"
+    },
+    {
+      "episode": 48,
+      "issuedDate": "2026-05-22",
+      "windowStart": "2026-05-24",
+      "windowEnd": "2026-05-27",
+      "windowText": "between Sunday, May 24 and Wednesday, May 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-05-22T18:46:55+00:00"
+    },
+    {
+      "episode": 48,
       "issuedDate": "2026-05-23",
       "windowStart": "2026-05-24",
       "windowEnd": "2026-05-26",
@@ -2002,6 +2038,51 @@
     },
     {
       "episode": 48,
+      "issuedDate": "2026-06-10",
+      "windowStart": "2026-06-12",
+      "windowEnd": "2026-06-15",
+      "windowText": "Forecast models indicate that episode 49 of lava fountaining is likely to occur between June 12-15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-10T18:25:02+00:00"
+    },
+    {
+      "episode": 49,
+      "issuedDate": "2026-06-06",
+      "windowStart": "2026-06-13",
+      "windowEnd": "2026-06-19",
+      "windowText": "forecast models indicate that the onset of fountaining episode 49 is 7-13 days from now and could occur between June 13-19",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-06T17:34:00+00:00"
+    },
+    {
+      "episode": 49,
+      "issuedDate": "2026-06-07",
+      "windowStart": "2026-06-12",
+      "windowEnd": "2026-06-15",
+      "windowText": "between June 12 and 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-07T17:40:21+00:00"
+    },
+    {
+      "episode": 49,
+      "issuedDate": "2026-06-08",
+      "windowStart": "2026-06-12",
+      "windowEnd": "2026-06-15",
+      "windowText": "between June 12 and 15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-08T17:10:44+00:00"
+    },
+    {
+      "episode": 49,
+      "issuedDate": "2026-06-09",
+      "windowStart": "2026-06-12",
+      "windowEnd": "2026-06-15",
+      "windowText": "Forecast models indicate that episode 49 of lava fountaining is likely to occur between June 12-15",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-06-09T17:23:20+00:00"
+    },
+    {
+      "episode": 49,
       "issuedDate": "2026-06-10",
       "windowStart": "2026-06-12",
       "windowEnd": "2026-06-15",
@@ -2280,6 +2361,15 @@
       "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-13T16:52:32+00:00"
     },
     {
+      "episode": 51,
+      "issuedDate": "2026-07-14",
+      "windowStart": "2026-07-14",
+      "windowEnd": "2026-07-16",
+      "windowText": "between today, July 14 and Thursday, July 16",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-07-14T18:06:08+00:00"
+    },
+    {
       "episode": 52,
       "issuedDate": "2026-07-17",
       "windowStart": "2026-07-24",
@@ -2494,6 +2584,42 @@
       "windowText": "from August 2 to 3",
       "source": "USGS HANS daily update archive",
       "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-12T16:32:18+00:00"
+    },
+    {
+      "episode": 54,
+      "issuedDate": "2026-08-17",
+      "windowStart": "2026-08-21",
+      "windowEnd": "2026-08-27",
+      "windowText": "between August 21 and August 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-17T19:16:39+00:00"
+    },
+    {
+      "episode": 54,
+      "issuedDate": "2026-08-18",
+      "windowStart": "2026-08-21",
+      "windowEnd": "2026-08-27",
+      "windowText": "between August 21 and August 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-18T17:59:01+00:00"
+    },
+    {
+      "episode": 54,
+      "issuedDate": "2026-08-19",
+      "windowStart": "2026-08-21",
+      "windowEnd": "2026-08-27",
+      "windowText": "between August 21 and August 27",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-19T17:20:44+00:00"
+    },
+    {
+      "episode": 54,
+      "issuedDate": "2026-08-20",
+      "windowStart": "2026-08-22",
+      "windowEnd": "2026-08-26",
+      "windowText": "between August 22 and August 26",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
     }
   ],
   "eruptions": [

@@ -24,6 +24,7 @@ test("server-renders the TurkeySci portal and safety context", async () => {
   assert.match(html, /Kīlauea gallery/);
   assert.match(html, /Most likely 50% range/);
   assert.match(html, /endlessczz@gmail\.com/);
+  assert.match(html, /Remote sensing is next/);
   assert.doesNotMatch(html, /credible interval/i);
   assert.doesNotMatch(html, /Zhaozhe Chen|github\.com|raw\.githubusercontent/i);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/i);

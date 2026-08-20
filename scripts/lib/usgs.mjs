@@ -76,7 +76,12 @@ export function parseDailyUpdate(html, sourceUrl) {
   );
   const summaryMatch = html.match(/<span\s+name=["']synopsis["'][^>]*>([\s\S]*?)<\/span>/i);
   const summary = summaryMatch ? stripTags(summaryMatch[1]).replace(/^Summary:\s*/i, "") : "";
-  const episodeMatch = text.match(/forecast window for episode\s+(\d+)/i)
+  // Prefer the current bulletin's explicit "episode N ... likely" wording.
+  // USGS pages can retain older hidden text that still says "forecast window
+  // for episode N", so checking that legacy phrase first can select the prior
+  // episode after an eruption has completed.
+  const episodeMatch = text.match(/episode\s+(\d+)\s+(?:(?:lava\s+)?fountaining\s+)?is\s+likely\b/i)
+    || text.match(/forecast window for episode\s+(\d+)/i)
     || text.match(/episode\s+(\d+)[^\n.]{0,250}?forecast/i)
     || text.match(/forecast[^\n.]{0,250}?episode\s+(\d+)/i);
   const window = parseForecastWindow(text, issuedDate);

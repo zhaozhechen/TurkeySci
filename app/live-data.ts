@@ -1,5 +1,5 @@
 import { posteriorOneEpisode } from "@/scripts/lib/model.mjs";
-import { htmlToText, parseDailyUpdate } from "@/scripts/lib/usgs.mjs";
+import { parseDailyUpdate, parseEruptionTimeline } from "@/scripts/lib/usgs.mjs";
 
 export type DistributionPoint = { date: string; probability: number };
 export type Forecast = {
@@ -44,7 +44,7 @@ type HansNotice = {
 };
 
 const HANS_SEARCH_URL = "https://volcanoes.usgs.gov/hans-public/api/search/search";
-const MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December";
+const TIMELINE_URL = "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information";
 
 async function fetchNotices(): Promise<HansNotice[]> {
   const notices: HansNotice[] = [];
@@ -71,32 +71,21 @@ async function fetchNotices(): Promise<HansNotice[]> {
   return notices;
 }
 
-function eruptionFromNotice(notice: HansNotice, minimumNewEpisode: number) {
-  const text = htmlToText(notice.noticeHtml);
-  const event = text.match(
-    new RegExp(`episode\\s+(\\d+)[^.!?\\n]{0,180}?(?:began|started|occurred)(?:[^.!?\\n]{0,80}?\\bon\\s+)?(${MONTHS})\\s+(\\d{1,2})(?:,\\s*(\\d{4}))?`, "i"),
-  );
-  if (!event) {
-    const sameDayEvent = text.match(/episode\s+(\d+)[^.!?\n]{0,160}?(?:began|started|occurred|ended)/i);
-    if (!sameDayEvent || Number(sameDayEvent[1]) <= minimumNewEpisode) return null;
-    return {
-      episode: Number(sameDayEvent[1]),
-      startDate: notice.sentUtc.slice(0, 10),
-      sourceUrl: notice.permLink,
-    };
+async function fetchOfficialTimeline(initial: PortalData) {
+  try {
+    const response = await fetch(TIMELINE_URL);
+    if (!response.ok) return initial.previousEruptions;
+    return parseEruptionTimeline(await response.text(), TIMELINE_URL);
+  } catch {
+    return initial.previousEruptions;
   }
-  const issueYear = Number(notice.sentUtc.slice(0, 4));
-  const date = new Date(`${event[2]} ${event[3]}, ${event[4] || issueYear} UTC`);
-  if (!Number.isFinite(date.getTime())) return null;
-  return {
-    episode: Number(event[1]),
-    startDate: date.toISOString().slice(0, 10),
-    sourceUrl: notice.permLink,
-  };
 }
 
 export async function refreshFromUsgs(initial: PortalData): Promise<PortalData> {
-  const notices = await fetchNotices();
+  const [notices, officialEruptions] = await Promise.all([
+    fetchNotices(),
+    fetchOfficialTimeline(initial),
+  ]);
   if (!notices.length) return initial;
 
   const parsed = notices.map((notice) => {
@@ -108,10 +97,11 @@ export async function refreshFromUsgs(initial: PortalData): Promise<PortalData> 
   }).filter(Boolean) as Array<{ notice: HansNotice; update: PortalData["usgs"] & { episode: number | null } }>;
   if (!parsed.length) return initial;
 
-  const forecasts: Forecast[] = [];
-  for (const { update } of parsed) {
+  const parsedNewestFirst = parsed.sort((a, b) => b.update.issuedDate.localeCompare(a.update.issuedDate));
+  const forecastsByDay = new Map<string, Forecast>();
+  for (const { update } of parsedNewestFirst) {
     if (!update.episode || !update.forecastWindow) continue;
-    forecasts.push({
+    const forecast = {
       episode: update.episode,
       issuedDate: update.issuedDate,
       windowStart: update.forecastWindow.start,
@@ -119,15 +109,12 @@ export async function refreshFromUsgs(initial: PortalData): Promise<PortalData> 
       windowText: update.forecastWindow.text,
       source: "USGS HANS daily update archive",
       sourceUrl: update.sourceUrl,
-    });
+    };
+    forecastsByDay.set(`${forecast.episode}:${forecast.issuedDate}`, forecast);
   }
+  const forecasts = [...forecastsByDay.values()];
 
-  const eruptionMap = new Map(initial.previousEruptions.map((item) => [item.episode, item]));
-  for (const notice of notices) {
-    const eruption = eruptionFromNotice(notice, initial.latestCompletedEpisode);
-    if (eruption) eruptionMap.set(eruption.episode, eruption);
-  }
-  const previousEruptions = [...eruptionMap.values()]
+  const previousEruptions = [...new Map(officialEruptions.map((item) => [item.episode, item])).values()]
     .sort((a, b) => b.episode - a.episode)
     .slice(0, 18);
   const latestCompletedEpisode = Math.max(
@@ -135,7 +122,7 @@ export async function refreshFromUsgs(initial: PortalData): Promise<PortalData> 
     ...previousEruptions.map((item) => item.episode),
   );
 
-  const newest = parsed[0].update;
+  const newest = parsedNewestFirst[0].update;
   const newestForecast = forecasts.sort((a, b) => b.issuedDate.localeCompare(a.issuedDate))[0];
   const currentEpisode = newestForecast && newestForecast.issuedDate === newest.issuedDate
     ? newestForecast.episode

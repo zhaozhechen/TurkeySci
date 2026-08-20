@@ -305,6 +305,7 @@ export function TurkeySciDashboard({ initialData }: { initialData: PortalData })
         <div className="about-copy">
           <p>TurkeySci is an independent research project by <strong>Endlessczz</strong>. It makes the evolution of public USGS forecasts easier to see and provides a reproducible Bayesian synthesis of those forecasts.</p>
           <p className="warning"><strong>Experimental model—not an official warning system.</strong> Never use TurkeySci for safety, evacuation, travel, or emergency decisions. Follow USGS, Hawaiʻi County Civil Defense, and Hawaiʻi Volcanoes National Park guidance.</p>
+          <div className="roadmap-note"><span>To be updated</span><h3>Remote sensing is next.</h3><p>In the next version, I will integrate remote-sensing observations into TurkeySci to help improve prediction accuracy alongside the evolving USGS forecast windows.</p></div>
           <div className="about-links"><a className="usgs-link" href={data.usgs.sourceUrl} target="_blank" rel="noreferrer">Read the latest USGS update ↗</a></div>
         </div>
       </section>
