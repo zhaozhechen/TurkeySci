@@ -4,11 +4,18 @@ import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { refreshFromUsgs, type Forecast, type PortalData } from "./live-data";
 
 const DAY_MS = 86_400_000;
-const GALLERY = Array.from({ length: 7 }, (_, index) => ({
-  src: `/gallery/kilauea-${index + 1}.jpg`,
-  alt: `Kīlauea eruption photograph ${index + 1} of 7`,
-  portrait: [0, 5, 6].includes(index),
-}));
+const GALLERY = [
+  {
+    src: "/gallery/kilauea-featured.png",
+    alt: "A person overlooking a glowing Kīlauea lava field at night",
+    portrait: false,
+  },
+  ...Array.from({ length: 7 }, (_, index) => ({
+    src: `/gallery/kilauea-${index + 1}.jpg`,
+    alt: `Kīlauea eruption photograph ${index + 2} of 8`,
+    portrait: [0, 5, 6].includes(index),
+  })),
+];
 
 function dayNumber(value: string) {
   return Date.parse(`${value}T00:00:00Z`) / DAY_MS;
