@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-22T21:47:58.623Z",
+  "updatedAt": "2026-08-23T21:48:03.550Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2633,6 +2633,15 @@
     {
       "episode": 54,
       "issuedDate": "2026-08-22",
+      "windowStart": "2026-08-24",
+      "windowEnd": "2026-08-28",
+      "windowText": "between August 24 and August 28",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-22T18:32:34+00:00"
+    },
+    {
+      "episode": 54,
+      "issuedDate": "2026-08-23",
       "windowStart": "2026-08-24",
       "windowEnd": "2026-08-28",
       "windowText": "between August 24 and August 28",

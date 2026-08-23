@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T21:47:58.624Z",
+  "generatedAt": "2026-08-23T21:48:03.551Z",
   "currentEpisode": 54,
   "latestCompletedEpisode": 53,
   "usgs": {
-    "issuedDate": "2026-08-22",
-    "issuedLabel": "Saturday, August 22, 2026, 9:32 AM HST",
+    "issuedDate": "2026-08-23",
+    "issuedLabel": "Sunday, August 23, 2026, 9:20 AM HST",
     "episode": 54,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
@@ -21,14 +21,14 @@
     "mapDate": "2026-08-25",
     "meanDate": "2026-08-25",
     "ci50": [
-      "2026-08-24",
-      "2026-08-25"
-    ],
-    "ci95": [
-      "2026-08-23",
+      "2026-08-25",
       "2026-08-26"
     ],
-    "observations": 6,
+    "ci95": [
+      "2026-08-24",
+      "2026-08-26"
+    ],
+    "observations": 7,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -66,39 +66,39 @@
       },
       {
         "date": "2026-08-21",
-        "probability": 0.000001
+        "probability": 1e-8
       },
       {
         "date": "2026-08-22",
-        "probability": 0.00044072
+        "probability": 0.0000184
       },
       {
         "date": "2026-08-23",
-        "probability": 0.03003064
+        "probability": 0.00487719
       },
       {
         "date": "2026-08-24",
-        "probability": 0.31672326
+        "probability": 0.15349935
       },
       {
         "date": "2026-08-25",
-        "probability": 0.51702754
+        "probability": 0.57360836
       },
       {
         "date": "2026-08-26",
-        "probability": 0.13063687
+        "probability": 0.25450519
       },
       {
         "date": "2026-08-27",
-        "probability": 0.005109
+        "probability": 0.01340757
       },
       {
         "date": "2026-08-28",
-        "probability": 0.00003093
+        "probability": 0.00008386
       },
       {
         "date": "2026-08-29",
-        "probability": 3e-8
+        "probability": 6e-8
       },
       {
         "date": "2026-08-30",
@@ -129,12 +129,21 @@
   "recentForecasts": [
     {
       "episode": 54,
-      "issuedDate": "2026-08-22",
+      "issuedDate": "2026-08-23",
       "windowStart": "2026-08-24",
       "windowEnd": "2026-08-28",
       "windowText": "between August 24 and August 28",
       "source": "USGS daily update",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 54,
+      "issuedDate": "2026-08-22",
+      "windowStart": "2026-08-24",
+      "windowEnd": "2026-08-28",
+      "windowText": "between August 24 and August 28",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-22T18:32:34+00:00"
     },
     {
       "episode": 54,
