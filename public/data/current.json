@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T21:48:03.551Z",
+  "generatedAt": "2026-08-24T21:54:44.238Z",
   "currentEpisode": 54,
   "latestCompletedEpisode": 53,
   "usgs": {
-    "issuedDate": "2026-08-23",
-    "issuedLabel": "Sunday, August 23, 2026, 9:20 AM HST",
+    "issuedDate": "2026-08-24",
+    "issuedLabel": "Monday, August 24, 2026, 10:00 AM HST",
     "episode": 54,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
-    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Data indicate the onset of the next fountaining episode is likely between August 24 and August 28.",
+    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Models indicate the onset of the next fountaining episode is likely between August 25 and August 28 with Tuesday to Wednesday most likely if rapid inflation persists.",
     "forecastWindow": {
-      "start": "2026-08-24",
+      "start": "2026-08-25",
       "end": "2026-08-28",
-      "text": "between August 24 and August 28"
+      "text": "between August 25 and August 28"
     },
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
@@ -28,7 +28,7 @@
       "2026-08-24",
       "2026-08-26"
     ],
-    "observations": 7,
+    "observations": 8,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -66,39 +66,39 @@
       },
       {
         "date": "2026-08-21",
-        "probability": 1e-8
+        "probability": 0
       },
       {
         "date": "2026-08-22",
-        "probability": 0.0000184
+        "probability": 1e-8
       },
       {
         "date": "2026-08-23",
-        "probability": 0.00487719
+        "probability": 0.00008766
       },
       {
         "date": "2026-08-24",
-        "probability": 0.15349935
+        "probability": 0.0284375
       },
       {
         "date": "2026-08-25",
-        "probability": 0.57360836
+        "probability": 0.49276367
       },
       {
         "date": "2026-08-26",
-        "probability": 0.25450519
+        "probability": 0.45610098
       },
       {
         "date": "2026-08-27",
-        "probability": 0.01340757
+        "probability": 0.02255061
       },
       {
         "date": "2026-08-28",
-        "probability": 0.00008386
+        "probability": 0.00005956
       },
       {
         "date": "2026-08-29",
-        "probability": 6e-8
+        "probability": 1e-8
       },
       {
         "date": "2026-08-30",
@@ -129,12 +129,21 @@
   "recentForecasts": [
     {
       "episode": 54,
+      "issuedDate": "2026-08-24",
+      "windowStart": "2026-08-25",
+      "windowEnd": "2026-08-28",
+      "windowText": "between August 25 and August 28",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 54,
       "issuedDate": "2026-08-23",
       "windowStart": "2026-08-24",
       "windowEnd": "2026-08-28",
       "windowText": "between August 24 and August 28",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-23T18:47:51+00:00"
     },
     {
       "episode": 54,
