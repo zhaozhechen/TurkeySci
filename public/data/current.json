@@ -1,20 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T21:54:44.238Z",
+  "generatedAt": "2026-08-25T21:54:25.594Z",
   "currentEpisode": 54,
   "latestCompletedEpisode": 53,
   "usgs": {
-    "issuedDate": "2026-08-24",
-    "issuedLabel": "Monday, August 24, 2026, 10:00 AM HST",
-    "episode": 54,
-    "alertLevel": "ADVISORY",
-    "aviationColor": "YELLOW",
-    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Models indicate the onset of the next fountaining episode is likely between August 25 and August 28 with Tuesday to Wednesday most likely if rapid inflation persists.",
-    "forecastWindow": {
-      "start": "2026-08-25",
-      "end": "2026-08-28",
-      "text": "between August 25 and August 28"
-    },
+    "issuedDate": "2026-08-25",
+    "issuedLabel": "Tuesday, August 25, 2026, 10:43 AM HST",
+    "episode": null,
+    "alertLevel": "WATCH",
+    "aviationColor": "ORANGE",
+    "summary": "Episode 54 of the ongoing Halemaʻumaʻu eruption began at 10:30 HST on August 25, 2026.",
+    "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
   "model": {
@@ -133,8 +129,8 @@
       "windowStart": "2026-08-25",
       "windowEnd": "2026-08-28",
       "windowText": "between August 25 and August 28",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-08-24T18:45:30+00:00"
     },
     {
       "episode": 54,
