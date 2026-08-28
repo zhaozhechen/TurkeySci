@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T00:58:55.062Z",
+  "generatedAt": "2026-08-28T05:32:47.798Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-08-26",
-    "issuedLabel": "Wednesday, August 26, 2026, 9:00 AM HST",
+    "issuedDate": "2026-08-27",
+    "issuedLabel": "Thursday, August 27, 2026, 8:05 AM HST",
     "episode": null,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
-    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Lava fountaining episode 54 ended at 7:33 p.m. HST on August 25. Reinflation indicates another episode is likely, but more data are needed to determine the forecast.",
+    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused following lava fountaining episode 54 on August 25. Reinflation has stopped. More data are needed to determine the forecast window for the next episode.",
     "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
