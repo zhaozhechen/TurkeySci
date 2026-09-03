@@ -1,20 +1,143 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T23:43:34.574Z",
+  "generatedAt": "2026-09-03T23:27:26.696Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-08-30",
-    "issuedLabel": "Sunday, August 30, 2026, 8:35 AM HST",
-    "episode": null,
+    "issuedDate": "2026-09-03",
+    "issuedLabel": "Thursday, September 3, 2026, 9:02 AM HST",
+    "episode": 55,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
-    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. After a period of instability, the summit has reinflated more steadily over the past two days. More data are needed to model the forecast window for the next episode.",
-    "forecastWindow": null,
+    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Summit reinflation has continued over the past day. A forecast window of September 7-12 is likely for the next fountain episode.",
+    "forecastWindow": {
+      "start": "2026-09-07",
+      "end": "2026-09-12",
+      "text": "forecast window of September 7-12"
+    },
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
-  "model": null,
-  "recentForecasts": [],
+  "model": {
+    "mapDate": "2026-09-09",
+    "meanDate": "2026-09-09",
+    "ci50": [
+      "2026-09-08",
+      "2026-09-10"
+    ],
+    "ci95": [
+      "2026-09-06",
+      "2026-09-12"
+    ],
+    "observations": 2,
+    "parameters": {
+      "sigmaScale": 2,
+      "recencyStrength": 2,
+      "narrowStrength": 1.5,
+      "padDays": 7
+    },
+    "distribution": [
+      {
+        "date": "2026-08-31",
+        "probability": 0
+      },
+      {
+        "date": "2026-09-01",
+        "probability": 1.8e-7
+      },
+      {
+        "date": "2026-09-02",
+        "probability": 0.00000496
+      },
+      {
+        "date": "2026-09-03",
+        "probability": 0.00008922
+      },
+      {
+        "date": "2026-09-04",
+        "probability": 0.00102819
+      },
+      {
+        "date": "2026-09-05",
+        "probability": 0.00759732
+      },
+      {
+        "date": "2026-09-06",
+        "probability": 0.03599398
+      },
+      {
+        "date": "2026-09-07",
+        "probability": 0.10934005
+      },
+      {
+        "date": "2026-09-08",
+        "probability": 0.21296534
+      },
+      {
+        "date": "2026-09-09",
+        "probability": 0.26596152
+      },
+      {
+        "date": "2026-09-10",
+        "probability": 0.21296534
+      },
+      {
+        "date": "2026-09-11",
+        "probability": 0.10934005
+      },
+      {
+        "date": "2026-09-12",
+        "probability": 0.03599398
+      },
+      {
+        "date": "2026-09-13",
+        "probability": 0.00759732
+      },
+      {
+        "date": "2026-09-14",
+        "probability": 0.00102819
+      },
+      {
+        "date": "2026-09-15",
+        "probability": 0.00008922
+      },
+      {
+        "date": "2026-09-16",
+        "probability": 0.00000496
+      },
+      {
+        "date": "2026-09-17",
+        "probability": 1.8e-7
+      },
+      {
+        "date": "2026-09-18",
+        "probability": 0
+      },
+      {
+        "date": "2026-09-19",
+        "probability": 0
+      }
+    ]
+  },
+  "recentForecasts": [
+    {
+      "episode": 55,
+      "issuedDate": "2026-09-03",
+      "windowStart": "2026-09-07",
+      "windowEnd": "2026-09-12",
+      "windowText": "forecast window of September 7-12",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 55,
+      "issuedDate": "2026-09-02",
+      "windowStart": "2026-09-07",
+      "windowEnd": "2026-09-12",
+      "windowText": "forecast window of September 7-12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-02T18:33:37+00:00"
+    }
+  ],
   "previousEruptions": [
     {
       "episode": 54,
