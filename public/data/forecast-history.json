@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T23:27:26.695Z",
+  "updatedAt": "2026-09-04T23:11:57.270Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2672,6 +2672,15 @@
       "windowStart": "2026-09-07",
       "windowEnd": "2026-09-12",
       "windowText": "forecast window of September 7-12",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-03T17:56:29+00:00"
+    },
+    {
+      "episode": 55,
+      "issuedDate": "2026-09-04",
+      "windowStart": "2026-09-07",
+      "windowEnd": "2026-09-13",
+      "windowText": "forecast window of September 7-13",
       "source": "USGS daily update",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
     }

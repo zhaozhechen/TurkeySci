@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T23:27:26.696Z",
+  "generatedAt": "2026-09-04T23:11:57.270Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-03",
-    "issuedLabel": "Thursday, September 3, 2026, 9:02 AM HST",
+    "issuedDate": "2026-09-04",
+    "issuedLabel": "Friday, September 4, 2026, 8:07 AM HST",
     "episode": 55,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
-    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. Summit reinflation has continued over the past day. A forecast window of September 7-12 is likely for the next fountain episode.",
+    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. The summit is currently in a deflationary step since yesterday morning. A forecast window of September 7-13 is likely for the next fountain episode.",
     "forecastWindow": {
       "start": "2026-09-07",
-      "end": "2026-09-12",
-      "text": "forecast window of September 7-12"
+      "end": "2026-09-13",
+      "text": "forecast window of September 7-13"
     },
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
@@ -25,10 +25,10 @@
       "2026-09-10"
     ],
     "ci95": [
-      "2026-09-06",
+      "2026-09-07",
       "2026-09-12"
     ],
-    "observations": 2,
+    "observations": 3,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -42,71 +42,71 @@
       },
       {
         "date": "2026-09-01",
-        "probability": 1.8e-7
+        "probability": 0
       },
       {
         "date": "2026-09-02",
-        "probability": 0.00000496
+        "probability": 1.7e-7
       },
       {
         "date": "2026-09-03",
-        "probability": 0.00008922
+        "probability": 0.00000653
       },
       {
         "date": "2026-09-04",
-        "probability": 0.00102819
+        "probability": 0.00014453
       },
       {
         "date": "2026-09-05",
-        "probability": 0.00759732
+        "probability": 0.00188632
       },
       {
         "date": "2026-09-06",
-        "probability": 0.03599398
+        "probability": 0.01452443
       },
       {
         "date": "2026-09-07",
-        "probability": 0.10934005
+        "probability": 0.06598053
       },
       {
         "date": "2026-09-08",
-        "probability": 0.21296534
+        "probability": 0.17683423
       },
       {
         "date": "2026-09-09",
-        "probability": 0.26596152
+        "probability": 0.27960875
       },
       {
         "date": "2026-09-10",
-        "probability": 0.21296534
+        "probability": 0.26083688
       },
       {
         "date": "2026-09-11",
-        "probability": 0.10934005
+        "probability": 0.14355592
       },
       {
         "date": "2026-09-12",
-        "probability": 0.03599398
+        "probability": 0.046613
       },
       {
         "date": "2026-09-13",
-        "probability": 0.00759732
+        "probability": 0.00892949
       },
       {
         "date": "2026-09-14",
-        "probability": 0.00102819
+        "probability": 0.00100921
       },
       {
         "date": "2026-09-15",
-        "probability": 0.00008922
+        "probability": 0.00006729
       },
       {
         "date": "2026-09-16",
-        "probability": 0.00000496
+        "probability": 0.00000265
       },
       {
         "date": "2026-09-17",
-        "probability": 1.8e-7
+        "probability": 6e-8
       },
       {
         "date": "2026-09-18",
@@ -115,18 +115,31 @@
       {
         "date": "2026-09-19",
         "probability": 0
+      },
+      {
+        "date": "2026-09-20",
+        "probability": 0
       }
     ]
   },
   "recentForecasts": [
     {
       "episode": 55,
+      "issuedDate": "2026-09-04",
+      "windowStart": "2026-09-07",
+      "windowEnd": "2026-09-13",
+      "windowText": "forecast window of September 7-13",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 55,
       "issuedDate": "2026-09-03",
       "windowStart": "2026-09-07",
       "windowEnd": "2026-09-12",
       "windowText": "forecast window of September 7-12",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-03T17:56:29+00:00"
     },
     {
       "episode": 55,
