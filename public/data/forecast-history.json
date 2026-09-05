@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T23:11:57.270Z",
+  "updatedAt": "2026-09-05T23:09:48.135Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2678,6 +2678,15 @@
     {
       "episode": 55,
       "issuedDate": "2026-09-04",
+      "windowStart": "2026-09-07",
+      "windowEnd": "2026-09-13",
+      "windowText": "forecast window of September 7-13",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-04T17:41:43+00:00"
+    },
+    {
+      "episode": 55,
+      "issuedDate": "2026-09-05",
       "windowStart": "2026-09-07",
       "windowEnd": "2026-09-13",
       "windowText": "forecast window of September 7-13",
