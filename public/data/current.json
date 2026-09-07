@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T23:01:02.509Z",
+  "generatedAt": "2026-09-07T23:40:28.648Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-06",
-    "issuedLabel": "Sunday, September 6, 2026, 8:35 AM HST",
+    "issuedDate": "2026-09-07",
+    "issuedLabel": "Monday, September 7, 2026, 1:00 PM HST",
     "episode": 55,
-    "alertLevel": "ADVISORY",
-    "aviationColor": "YELLOW",
-    "summary": "Kīlauea volcano is not erupting; the summit eruption in Halemaʻumaʻu is paused. The summit inflated rapidly during the past 24 hours after being stalled the previous day. A forecast window of September 7-10 is likely for the start of episode 55.",
+    "alertLevel": "WATCH",
+    "aviationColor": "ORANGE",
+    "summary": "Precursory low-level eruptive activity before episode 55 of the ongoing Halemaʻumaʻu eruption began around 15:45 p.m. HST on September 7, 2026.",
     "forecastWindow": {
       "start": "2026-09-07",
       "end": "2026-09-10",
-      "text": "forecast window of September 7-10"
+      "text": "forecast for episode 55 of lava fountaining to start is between September 7-10"
     },
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
@@ -26,9 +26,9 @@
     ],
     "ci95": [
       "2026-09-07",
-      "2026-09-10"
+      "2026-09-09"
     ],
-    "observations": 5,
+    "observations": 6,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -58,35 +58,35 @@
       },
       {
         "date": "2026-09-05",
-        "probability": 0.00000545
+        "probability": 5e-8
       },
       {
         "date": "2026-09-06",
-        "probability": 0.0016752
+        "probability": 0.00026967
       },
       {
         "date": "2026-09-07",
-        "probability": 0.07351048
+        "probability": 0.0616209
       },
       {
         "date": "2026-09-08",
-        "probability": 0.46026084
+        "probability": 0.63573851
       },
       {
         "date": "2026-09-09",
-        "probability": 0.41118
+        "probability": 0.29613666
       },
       {
         "date": "2026-09-10",
-        "probability": 0.05241229
+        "probability": 0.00622829
       },
       {
         "date": "2026-09-11",
-        "probability": 0.00095325
+        "probability": 0.00000591
       },
       {
         "date": "2026-09-12",
-        "probability": 0.00000247
+        "probability": 0
       },
       {
         "date": "2026-09-13",
@@ -125,12 +125,21 @@
   "recentForecasts": [
     {
       "episode": 55,
+      "issuedDate": "2026-09-07",
+      "windowStart": "2026-09-07",
+      "windowEnd": "2026-09-10",
+      "windowText": "forecast for episode 55 of lava fountaining to start is between September 7-10",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 55,
       "issuedDate": "2026-09-06",
       "windowStart": "2026-09-07",
       "windowEnd": "2026-09-10",
       "windowText": "forecast window of September 7-10",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-06T17:34:33+00:00"
     },
     {
       "episode": 55,
