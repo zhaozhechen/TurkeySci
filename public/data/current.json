@@ -1,20 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T23:20:47.156Z",
+  "generatedAt": "2026-09-11T23:29:44.589Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-10",
-    "issuedLabel": "Thursday, September 10, 2026, 8:21 AM HST",
+    "issuedDate": "2026-09-11",
+    "issuedLabel": "Friday, September 11, 2026, 7:51 AM HST",
     "episode": 55,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "Kīlauea volcano is intermittently erupting short, precursory lava flows continuing the activity that began September 7. The forecast window for onset of episode 55 fountaining is now September 10-11 given no change in summit inflation since yesterday.",
-    "forecastWindow": {
-      "start": "2026-09-10",
-      "end": "2026-09-11",
-      "text": "forecast window for onset of episode 55 fountaining is now September 10-11"
-    },
+    "summary": "Kīlauea volcano is intermittently erupting short, precursory lava flows continuing the activity that began September 7. Summit inflation returned last night. Episode 55 fountaining is likely today, September 11, if inflation patterns remain consistent.",
+    "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
   "model": {
@@ -129,8 +125,8 @@
       "windowStart": "2026-09-10",
       "windowEnd": "2026-09-11",
       "windowText": "forecast window for onset of episode 55 fountaining is now September 10-11",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-10T16:30:02+00:00"
     },
     {
       "episode": 55,
