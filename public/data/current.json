@@ -1,16 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T23:22:08.036Z",
+  "generatedAt": "2026-09-14T23:57:27.087Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-13",
-    "issuedLabel": "Sunday, September 13, 2026, 9:15 AM HST",
+    "issuedDate": "2026-09-14",
+    "issuedLabel": "Monday, September 14, 2026, 9:37 AM HST",
     "episode": 55,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "Kīlauea volcano is intermittently erupting short, precursory lava flows with 104 recorded since this activity began on September 7. The onset of episode 55 fountaining is likely today or tomorrow, if conditions remain favorable.",
-    "forecastWindow": null,
+    "summary": "Kīlauea has been intermittently erupting bursts of spatter building a small cone around the north vent in Halemaʻumaʻu; no precursory flows since September 12. Summit inflation stalled last night further delaying the onset of episode 55 fountaining.",
+    "forecastWindow": {
+      "start": "2026-09-07",
+      "end": "2026-09-12",
+      "text": "between September 7 and 12"
+    },
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
   "model": {
@@ -24,7 +28,7 @@
       "2026-09-09",
       "2026-09-10"
     ],
-    "observations": 9,
+    "observations": 10,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -66,15 +70,15 @@
       },
       {
         "date": "2026-09-08",
-        "probability": 3e-8
+        "probability": 0
       },
       {
         "date": "2026-09-09",
-        "probability": 0.89151117
+        "probability": 0.94867212
       },
       {
         "date": "2026-09-10",
-        "probability": 0.1084888
+        "probability": 0.05132788
       },
       {
         "date": "2026-09-11",
@@ -119,6 +123,15 @@
     ]
   },
   "recentForecasts": [
+    {
+      "episode": 55,
+      "issuedDate": "2026-09-14",
+      "windowStart": "2026-09-07",
+      "windowEnd": "2026-09-12",
+      "windowText": "between September 7 and 12",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
     {
       "episode": 55,
       "issuedDate": "2026-09-10",

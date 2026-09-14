@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T23:22:08.035Z",
+  "updatedAt": "2026-09-14T23:57:27.086Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2737,6 +2737,15 @@
       "windowText": "forecast window for onset of episode 55 fountaining is now September 10-11",
       "source": "USGS HANS daily update archive",
       "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-10T16:30:02+00:00"
+    },
+    {
+      "episode": 55,
+      "issuedDate": "2026-09-14",
+      "windowStart": "2026-09-07",
+      "windowEnd": "2026-09-12",
+      "windowText": "between September 7 and 12",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
     }
   ],
   "eruptions": [
