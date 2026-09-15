@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T23:57:27.087Z",
+  "generatedAt": "2026-09-15T23:36:01.049Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-14",
-    "issuedLabel": "Monday, September 14, 2026, 9:37 AM HST",
-    "episode": 55,
+    "issuedDate": "2026-09-15",
+    "issuedLabel": "Tuesday, September 15, 2026, 10:48 AM HST",
+    "episode": null,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "Kīlauea has been intermittently erupting bursts of spatter building a small cone around the north vent in Halemaʻumaʻu; no precursory flows since September 12. Summit inflation stalled last night further delaying the onset of episode 55 fountaining.",
+    "summary": "Minor new eruptive activity began near the base of the northwest wall of Halemaʻumaʻu crater last night. Spattering continues from the north vent along with periodic bursts from the south vent. Summit inflation stalled with opening of the new vent.",
     "forecastWindow": {
       "start": "2026-09-07",
       "end": "2026-09-12",
@@ -129,8 +129,8 @@
       "windowStart": "2026-09-07",
       "windowEnd": "2026-09-12",
       "windowText": "between September 7 and 12",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-09-14T16:21:34+00:00"
     },
     {
       "episode": 55,
