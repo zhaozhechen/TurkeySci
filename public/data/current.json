@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T23:36:01.049Z",
+  "generatedAt": "2026-09-16T23:45:08.035Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-15",
-    "issuedLabel": "Tuesday, September 15, 2026, 10:48 AM HST",
+    "issuedDate": "2026-09-16",
+    "issuedLabel": "Wednesday, September 16, 2026, 10:16 AM HST",
     "episode": null,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "Minor new eruptive activity began near the base of the northwest wall of Halemaʻumaʻu crater last night. Spattering continues from the north vent along with periodic bursts from the south vent. Summit inflation stalled with opening of the new vent.",
+    "summary": "Five new vents have now opened on and near the northwest wall of Halemaʻumaʻu crater and produced small lava flows. Spattering continues from the north vent, periodic bursts from south and west vents. Summit inflation is stalled, tremor is increasing.",
     "forecastWindow": {
       "start": "2026-09-07",
       "end": "2026-09-12",
