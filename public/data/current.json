@@ -1,20 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T23:45:08.035Z",
+  "generatedAt": "2026-09-17T23:37:29.943Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-16",
-    "issuedLabel": "Wednesday, September 16, 2026, 10:16 AM HST",
+    "issuedDate": "2026-09-17",
+    "issuedLabel": "Thursday, September 17, 2026, 10:01 AM HST",
     "episode": null,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "Five new vents have now opened on and near the northwest wall of Halemaʻumaʻu crater and produced small lava flows. Spattering continues from the north vent, periodic bursts from south and west vents. Summit inflation is stalled, tremor is increasing.",
-    "forecastWindow": {
-      "start": "2026-09-07",
-      "end": "2026-09-12",
-      "text": "between September 7 and 12"
-    },
+    "summary": "The new vents stagnated last night, there is currently no active lava on the ground. The north, south, and west vents continue to glow. A minor summit deflation began at about 5 pm HST last night. There is no anomalous activity outside of the summit.",
+    "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
   "model": {
