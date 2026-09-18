@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T23:37:29.943Z",
+  "generatedAt": "2026-09-18T23:30:16.516Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-17",
-    "issuedLabel": "Thursday, September 17, 2026, 10:01 AM HST",
+    "issuedDate": "2026-09-18",
+    "issuedLabel": "Friday, September 18, 2026, 9:16 AM HST",
     "episode": null,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "The new vents stagnated last night, there is currently no active lava on the ground. The north, south, and west vents continue to glow. A minor summit deflation began at about 5 pm HST last night. There is no anomalous activity outside of the summit.",
+    "summary": "There is currently no active lava on the ground. The north, south, and west vents continue to glow and emit flames, with minor intermittent spatter. Minor summit inflation occurred overnight. There is no anomalous activity outside of the summit.",
     "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
