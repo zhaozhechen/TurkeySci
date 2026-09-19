@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T23:30:16.516Z",
+  "generatedAt": "2026-09-19T23:23:14.678Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-18",
-    "issuedLabel": "Friday, September 18, 2026, 9:16 AM HST",
+    "issuedDate": "2026-09-19",
+    "issuedLabel": "Saturday, September 19, 2026, 10:27 AM HST",
     "episode": null,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "There is currently no active lava on the ground. The north, south, and west vents continue to glow and emit flames, with minor intermittent spatter. Minor summit inflation occurred overnight. There is no anomalous activity outside of the summit.",
+    "summary": "There is currently no active lava on the ground. The north and west vents continue to glow and emit flames. Minor summit inflation occurred overnight. There is no anomalous activity outside of the summit.",
     "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
