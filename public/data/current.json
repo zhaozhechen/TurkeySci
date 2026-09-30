@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T01:10:55.330Z",
+  "generatedAt": "2026-09-30T00:41:35.915Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-09-28",
-    "issuedLabel": "Monday, September 28, 2026, 8:21 AM HST",
+    "issuedDate": "2026-09-29",
+    "issuedLabel": "Tuesday, September 29, 2026, 9:02 AM HST",
     "episode": null,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "Small overflows from the north vent continue within Halema'uma'u crater at the summit of Kīlauea. All vents have strong glow and intermittent spatter. There is no anomalous activity outside of the summit.",
+    "summary": "Numerous rapid cycles of south vent overflows and drainback occurred overnight within Halema'uma'u crater at the summit of Kīlauea. The north and south vents had strong glow and intermittent spatter. There is no anomalous activity outside of the summit.",
     "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
