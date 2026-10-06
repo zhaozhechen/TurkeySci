@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T00:05:34.311Z",
+  "generatedAt": "2026-10-06T01:50:22.966Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-10-04",
-    "issuedLabel": "Sunday, October 4, 2026, 8:30 AM HST",
+    "issuedDate": "2026-10-05",
+    "issuedLabel": "Monday, October 5, 2026, 9:00 AM HST",
     "episode": 55,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "No overflows or spattering at north or south vents over the past day; strong glow and flames continue. No reactivation of Sept. 30–Oct. 1 intrusion. Earthquake activity continues underneath Halemaʻumaʻu. No anomalous activity outside the summit.",
+    "summary": "The north and south vents had strong glow and flames overnight and south vent spattered at least once. There has been no reactivation of the September 30–October 1 intrusion. There is no anomalous activity outside of the summit.",
     "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
