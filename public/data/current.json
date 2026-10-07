@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T01:50:22.966Z",
+  "generatedAt": "2026-10-07T00:56:51.179Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-10-05",
-    "issuedLabel": "Monday, October 5, 2026, 9:00 AM HST",
+    "issuedDate": "2026-10-06",
+    "issuedLabel": "Tuesday, October 6, 2026, 9:20 AM HST",
     "episode": 55,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "The north and south vents had strong glow and flames overnight and south vent spattered at least once. There has been no reactivation of the September 30–October 1 intrusion. There is no anomalous activity outside of the summit.",
+    "summary": "A shallow intrusion occurred beneath Halemaʻumaʻu at the summit Kīlauea volcano Sep 30–Oct 1. At present there is minor spattering at both north and south vents. It is not possible to forecast the onset of episode 55 fountains or if they will occur.",
     "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
