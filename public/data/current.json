@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T00:01:51.002Z",
+  "generatedAt": "2026-10-15T23:46:05.491Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-10-14",
-    "issuedLabel": "Wednesday, October 14, 2026, 10:06 AM HST",
+    "issuedDate": "2026-10-15",
+    "issuedLabel": "Thursday, October 15, 2026, 10:10 AM HST",
     "episode": null,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "Glow, flames, and minor spattering over the past day; no additional eruptive activity. Kīlauea's summit remains at a high level of pressurization with changes in eruptive activity or location within the summit region possible.",
+    "summary": "Intermittent overflows from the north vent resumed yesterday and continued through day; less frequent overnight. Kīlauea's summit remains at a high level of pressurization with changes in eruptive activity or location within the summit region possible.",
     "forecastWindow": {
       "start": "2024-12-23",
       "end": "2026-08-25",
