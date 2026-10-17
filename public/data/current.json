@@ -1,20 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T23:46:36.926Z",
+  "generatedAt": "2026-10-17T23:20:38.683Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 54,
   "usgs": {
-    "issuedDate": "2026-10-16",
-    "issuedLabel": "Friday, October 16, 2026, 9:54 AM HST",
+    "issuedDate": "2026-10-17",
+    "issuedLabel": "Saturday, October 17, 2026, 9:59 AM HST",
     "episode": null,
-    "alertLevel": "WATCH",
-    "aviationColor": "ORANGE",
-    "summary": "Overflows from the south vent overnight became continuous near dawn this morning. Kīlauea's summit remains at a high level of pressurization with changes in eruptive activity or location within the summit region possible.",
-    "forecastWindow": {
-      "start": "2024-12-23",
-      "end": "2026-08-25",
-      "text": "between December 23, 2024, and August 25, 2026"
-    },
+    "alertLevel": "ADVISORY",
+    "aviationColor": "YELLOW",
+    "summary": "Episode 55 of the ongoing Halemaʻumaʻu eruption ended abruptly at 9:03 a.m. HST on October 17, 2026. VAN is being reissued to drop the alert level from WATCH to ADVISORY and the color code from ORANGE to YELLOW.",
+    "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
   "model": {
