@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T23:33:00.149Z",
+  "generatedAt": "2026-10-20T00:32:45.590Z",
   "currentEpisode": 55,
-  "latestCompletedEpisode": 54,
+  "latestCompletedEpisode": 55,
   "usgs": {
-    "issuedDate": "2026-10-18",
-    "issuedLabel": "Sunday, October 18, 2026, 10:30 AM HST",
+    "issuedDate": "2026-10-19",
+    "issuedLabel": "Monday, October 19, 2026, 9:46 AM HST",
     "episode": 55,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
-    "summary": "The Halema'uma'u eruption of Kīlauea is currently paused after episode 55 fountaining ended yesterday at 9:03 a.m. HST. Summit reinflation continues today following the end of the fountaining.",
+    "summary": "The Halema'uma'u eruption of Kīlauea is currently paused after episode 55 fountaining ended on October 17. Summit reinflation continues today.",
     "forecastWindow": {
       "start": "2024-12-23",
       "end": "2026-08-25",
@@ -26,9 +26,9 @@
     ],
     "ci95": [
       "2026-09-09",
-      "2026-09-09"
+      "2026-09-10"
     ],
-    "observations": 11,
+    "observations": 12,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -2566,11 +2566,11 @@
       },
       {
         "date": "2026-09-09",
-        "probability": 0.97501668
+        "probability": 0.9714032
       },
       {
         "date": "2026-09-10",
-        "probability": 0.02498332
+        "probability": 0.0285968
       },
       {
         "date": "2026-09-11",
@@ -2617,12 +2617,21 @@
   "recentForecasts": [
     {
       "episode": 55,
-      "issuedDate": "2026-10-18",
+      "issuedDate": "2026-10-19",
       "windowStart": "2024-12-23",
       "windowEnd": "2026-08-25",
       "windowText": "between December 23, 2024, and August 25, 2026",
       "source": "USGS daily update",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 55,
+      "issuedDate": "2026-10-18",
+      "windowStart": "2024-12-23",
+      "windowEnd": "2026-08-25",
+      "windowText": "between December 23, 2024, and August 25, 2026",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-18T18:32:10+00:00"
     },
     {
       "episode": 55,
@@ -2717,6 +2726,11 @@
   ],
   "previousEruptions": [
     {
+      "episode": 55,
+      "startDate": "2026-10-17",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
+    },
+    {
       "episode": 54,
       "startDate": "2026-08-25",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
@@ -2799,11 +2813,6 @@
     {
       "episode": 38,
       "startDate": "2025-12-06",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
-    },
-    {
-      "episode": 37,
-      "startDate": "2025-11-25",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/science/eruption-information"
     }
   ],
