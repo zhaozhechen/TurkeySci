@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T00:04:59.986Z",
+  "generatedAt": "2026-10-23T23:56:17.474Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 55,
   "usgs": {
-    "issuedDate": "2026-10-22",
-    "issuedLabel": "Thursday, October 22, 2026, 10:00 AM HST",
+    "issuedDate": "2026-10-23",
+    "issuedLabel": "Friday, October 23, 2026, 9:37 AM HST",
     "episode": 55,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
@@ -28,7 +28,7 @@
       "2026-09-10",
       "2026-09-10"
     ],
-    "observations": 14,
+    "observations": 15,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -2566,15 +2566,15 @@
       },
       {
         "date": "2026-09-09",
-        "probability": 0.00082229
+        "probability": 0.00000206
       },
       {
         "date": "2026-09-10",
-        "probability": 0.99917771
+        "probability": 0.99999619
       },
       {
         "date": "2026-09-11",
-        "probability": 0
+        "probability": 0.00000175
       },
       {
         "date": "2026-09-12",
@@ -2829,12 +2829,21 @@
   "recentForecasts": [
     {
       "episode": 55,
-      "issuedDate": "2026-10-22",
+      "issuedDate": "2026-10-23",
       "windowStart": "2026-10-29",
       "windowEnd": "2026-11-05",
       "windowText": "between October 29 and November 5, 2026",
       "source": "USGS daily update",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 55,
+      "issuedDate": "2026-10-22",
+      "windowStart": "2026-10-29",
+      "windowEnd": "2026-11-05",
+      "windowText": "between October 29 and November 5, 2026",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-22T18:46:14+00:00"
     },
     {
       "episode": 55,
