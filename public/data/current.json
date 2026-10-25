@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T23:33:28.402Z",
+  "generatedAt": "2026-10-25T23:27:47.004Z",
   "currentEpisode": 55,
   "latestCompletedEpisode": 55,
   "usgs": {
-    "issuedDate": "2026-10-24",
-    "issuedLabel": "Saturday, October 24, 2026, 8:37 AM HST",
+    "issuedDate": "2026-10-25",
+    "issuedLabel": "Sunday, October 25, 2026, 8:37 AM HST",
     "episode": 55,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
@@ -18,17 +18,17 @@
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
   "model": {
-    "mapDate": "2026-09-10",
-    "meanDate": "2026-09-10",
+    "mapDate": "2026-09-11",
+    "meanDate": "2026-09-11",
     "ci50": [
-      "2026-09-10",
-      "2026-09-10"
-    ],
-    "ci95": [
-      "2026-09-10",
+      "2026-09-11",
       "2026-09-11"
     ],
-    "observations": 16,
+    "ci95": [
+      "2026-09-11",
+      "2026-09-11"
+    ],
+    "observations": 17,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -2570,11 +2570,11 @@
       },
       {
         "date": "2026-09-10",
-        "probability": 0.95958694
+        "probability": 0.00011705
       },
       {
         "date": "2026-09-11",
-        "probability": 0.04041306
+        "probability": 0.99988295
       },
       {
         "date": "2026-09-12",
@@ -2829,12 +2829,21 @@
   "recentForecasts": [
     {
       "episode": 55,
-      "issuedDate": "2026-10-24",
+      "issuedDate": "2026-10-25",
       "windowStart": "2026-10-30",
       "windowEnd": "2026-11-05",
       "windowText": "between October 30 and November 5, 2026",
       "source": "USGS daily update",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 55,
+      "issuedDate": "2026-10-24",
+      "windowStart": "2026-10-30",
+      "windowEnd": "2026-11-05",
+      "windowText": "between October 30 and November 5, 2026",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-24T18:15:36+00:00"
     },
     {
       "episode": 55,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T23:33:28.399Z",
+  "updatedAt": "2026-10-25T23:27:46.999Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2795,6 +2795,15 @@
     {
       "episode": 55,
       "issuedDate": "2026-10-24",
+      "windowStart": "2026-10-30",
+      "windowEnd": "2026-11-05",
+      "windowText": "between October 30 and November 5, 2026",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-24T18:15:36+00:00"
+    },
+    {
+      "episode": 55,
+      "issuedDate": "2026-10-25",
       "windowStart": "2026-10-30",
       "windowEnd": "2026-11-05",
       "windowText": "between October 30 and November 5, 2026",
