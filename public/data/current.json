@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T00:40:05.879Z",
+  "generatedAt": "2026-10-29T01:09:48.955Z",
   "currentEpisode": 56,
   "latestCompletedEpisode": 55,
   "usgs": {
-    "issuedDate": "2026-10-27",
-    "issuedLabel": "Tuesday, October 27, 2026, 8:10 AM HST",
+    "issuedDate": "2026-10-28",
+    "issuedLabel": "Wednesday, October 28, 2026, 9:04 AM HST",
     "episode": 56,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
@@ -18,17 +18,17 @@
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
   "model": {
-    "mapDate": "2026-11-03",
-    "meanDate": "2026-11-03",
+    "mapDate": "2026-11-04",
+    "meanDate": "2026-11-04",
     "ci50": [
-      "2026-11-02",
+      "2026-11-03",
       "2026-11-05"
     ],
     "ci95": [
       "2026-11-01",
       "2026-11-06"
     ],
-    "observations": 3,
+    "observations": 4,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -62,75 +62,75 @@
       },
       {
         "date": "2026-10-26",
-        "probability": 6e-8
+        "probability": 0
       },
       {
         "date": "2026-10-27",
-        "probability": 0.00000169
+        "probability": 1e-8
       },
       {
         "date": "2026-10-28",
-        "probability": 0.00003309
+        "probability": 6e-7
       },
       {
         "date": "2026-10-29",
-        "probability": 0.00042311
+        "probability": 0.00002293
       },
       {
         "date": "2026-10-30",
-        "probability": 0.00353768
+        "probability": 0.00048351
       },
       {
         "date": "2026-10-31",
-        "probability": 0.01933877
+        "probability": 0.00566248
       },
       {
         "date": "2026-11-01",
-        "probability": 0.06911755
+        "probability": 0.0368258
       },
       {
         "date": "2026-11-02",
-        "probability": 0.16150898
+        "probability": 0.13299679
       },
       {
         "date": "2026-11-03",
-        "probability": 0.2467481
+        "probability": 0.26673112
       },
       {
         "date": "2026-11-04",
-        "probability": 0.24646755
+        "probability": 0.29706383
       },
       {
         "date": "2026-11-05",
-        "probability": 0.16095872
+        "probability": 0.18372551
       },
       {
         "date": "2026-11-06",
-        "probability": 0.06872552
+        "probability": 0.06310049
       },
       {
         "date": "2026-11-07",
-        "probability": 0.01918538
+        "probability": 0.01203482
       },
       {
         "date": "2026-11-08",
-        "probability": 0.00350164
+        "probability": 0.00127465
       },
       {
         "date": "2026-11-09",
-        "probability": 0.00041785
+        "probability": 0.00007497
       },
       {
         "date": "2026-11-10",
-        "probability": 0.0000326
+        "probability": 0.00000245
       },
       {
         "date": "2026-11-11",
-        "probability": 0.00000166
+        "probability": 4e-8
       },
       {
         "date": "2026-11-12",
-        "probability": 6e-8
+        "probability": 0
       },
       {
         "date": "2026-11-13",
@@ -145,12 +145,21 @@
   "recentForecasts": [
     {
       "episode": 56,
-      "issuedDate": "2026-10-27",
+      "issuedDate": "2026-10-28",
       "windowStart": "2026-11-01",
       "windowEnd": "2026-11-07",
       "windowText": "forecast window for episode 56 fountaining is November 1–7, 2026",
       "source": "USGS daily update",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 56,
+      "issuedDate": "2026-10-27",
+      "windowStart": "2026-11-01",
+      "windowEnd": "2026-11-07",
+      "windowText": "forecast window for episode 56 fountaining is November 1–7, 2026",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-26T18:49:22+00:00"
     },
     {
       "episode": 56,
