@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T01:09:48.954Z",
+  "updatedAt": "2026-10-30T01:16:34.423Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2840,6 +2840,15 @@
     {
       "episode": 56,
       "issuedDate": "2026-10-28",
+      "windowStart": "2026-11-01",
+      "windowEnd": "2026-11-07",
+      "windowText": "forecast window for episode 56 fountaining is November 1–7, 2026",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-28T18:37:41+00:00"
+    },
+    {
+      "episode": 56,
+      "issuedDate": "2026-10-29",
       "windowStart": "2026-11-01",
       "windowEnd": "2026-11-07",
       "windowText": "forecast window for episode 56 fountaining is November 1–7, 2026",
