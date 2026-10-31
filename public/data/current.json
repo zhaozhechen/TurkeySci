@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T01:16:34.424Z",
+  "generatedAt": "2026-10-31T00:57:53.761Z",
   "currentEpisode": 56,
   "latestCompletedEpisode": 55,
   "usgs": {
-    "issuedDate": "2026-10-29",
-    "issuedLabel": "Thursday, October 29, 2026, 9:05 AM HST",
+    "issuedDate": "2026-10-30",
+    "issuedLabel": "Friday, October 30, 2026, 8:42 AM HST",
     "episode": 56,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
-    "summary": "The Halema'uma'u eruption of Kīlauea remains paused following episode 55 on October 17. The forecast for episode 56 fountaining has been pushed to Nov. 1-7, 2026.",
+    "summary": "The Halema'uma'u eruption of Kīlauea remains paused following episode 55 on October 17. The forecast for episode 56 fountaining has been pushed to Nov. 2-9, 2026.",
     "forecastWindow": {
-      "start": "2026-11-01",
-      "end": "2026-11-07",
-      "text": "forecast window for episode 56 fountaining is November 1–7, 2026"
+      "start": "2026-11-02",
+      "end": "2026-11-09",
+      "text": "forecast window for episode 56 fountaining is November 2–9, 2026"
     },
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
@@ -28,7 +28,7 @@
       "2026-11-02",
       "2026-11-06"
     ],
-    "observations": 5,
+    "observations": 6,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -70,59 +70,59 @@
       },
       {
         "date": "2026-10-28",
-        "probability": 1e-8
+        "probability": 0
       },
       {
         "date": "2026-10-29",
-        "probability": 0.00000128
+        "probability": 1.4e-7
       },
       {
         "date": "2026-10-30",
-        "probability": 0.00006698
+        "probability": 0.00001298
       },
       {
         "date": "2026-10-31",
-        "probability": 0.00165775
+        "probability": 0.0005219
       },
       {
         "date": "2026-11-01",
-        "probability": 0.01935274
+        "probability": 0.00920853
       },
       {
         "date": "2026-11-02",
-        "probability": 0.1065622
+        "probability": 0.07132443
       },
       {
         "date": "2026-11-03",
-        "probability": 0.27675934
+        "probability": 0.24250898
       },
       {
         "date": "2026-11-04",
-        "probability": 0.33903127
+        "probability": 0.36195842
       },
       {
         "date": "2026-11-05",
-        "probability": 0.1958915
+        "probability": 0.23715424
       },
       {
         "date": "2026-11-06",
-        "probability": 0.05338629
+        "probability": 0.06820943
       },
       {
         "date": "2026-11-07",
-        "probability": 0.0068625
+        "probability": 0.00861191
       },
       {
         "date": "2026-11-08",
-        "probability": 0.00041608
+        "probability": 0.0004773
       },
       {
         "date": "2026-11-09",
-        "probability": 0.0000119
+        "probability": 0.00001161
       },
       {
         "date": "2026-11-10",
-        "probability": 1.6e-7
+        "probability": 1.2e-7
       },
       {
         "date": "2026-11-11",
@@ -139,18 +139,35 @@
       {
         "date": "2026-11-14",
         "probability": 0
+      },
+      {
+        "date": "2026-11-15",
+        "probability": 0
+      },
+      {
+        "date": "2026-11-16",
+        "probability": 0
       }
     ]
   },
   "recentForecasts": [
     {
       "episode": 56,
+      "issuedDate": "2026-10-30",
+      "windowStart": "2026-11-02",
+      "windowEnd": "2026-11-09",
+      "windowText": "forecast window for episode 56 fountaining is November 2–9, 2026",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 56,
       "issuedDate": "2026-10-29",
       "windowStart": "2026-11-01",
       "windowEnd": "2026-11-07",
       "windowText": "forecast window for episode 56 fountaining is November 1–7, 2026",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-29T18:53:18+00:00"
     },
     {
       "episode": 56,
