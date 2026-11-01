@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T00:57:53.760Z",
+  "updatedAt": "2026-11-01T00:19:21.546Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2861,6 +2861,15 @@
       "windowStart": "2026-11-02",
       "windowEnd": "2026-11-09",
       "windowText": "forecast window for episode 56 fountaining is November 2–9, 2026",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-10-30T18:19:38+00:00"
+    },
+    {
+      "episode": 56,
+      "issuedDate": "2026-10-31",
+      "windowStart": "2026-11-03",
+      "windowEnd": "2026-11-10",
+      "windowText": "forecast window for episode 56 fountaining is November 3-10, 2026",
       "source": "USGS daily update",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
     }
