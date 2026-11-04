@@ -1,34 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T00:59:40.832Z",
+  "generatedAt": "2026-11-04T01:34:59.331Z",
   "currentEpisode": 56,
   "latestCompletedEpisode": 55,
   "usgs": {
-    "issuedDate": "2026-11-01",
-    "issuedLabel": "Sunday, November 1, 2026, 10:17 AM HST",
-    "episode": 56,
-    "alertLevel": "ADVISORY",
-    "aviationColor": "YELLOW",
-    "summary": "The Halema'uma'u eruption of Kīlauea remains paused following episode 55 on October 17. The forecast for episode 56 fountaining is Nov. 3-7, 2026.",
-    "forecastWindow": {
-      "start": "2026-11-03",
-      "end": "2026-11-07",
-      "text": "forecast window for episode 56 fountaining is November 3-7, 2026"
-    },
+    "issuedDate": "2026-11-03",
+    "issuedLabel": "Tuesday, November 3, 2026, 10:35 AM HST",
+    "episode": null,
+    "alertLevel": "WATCH",
+    "aviationColor": "ORANGE",
+    "summary": "Lava flows began erupting from the north vent within Halema'uma'u yesterday, November 2, and are continuing this morning. High fountaining remains a possibility today or anytime within the next few days.",
+    "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
   "model": {
     "mapDate": "2026-11-05",
     "meanDate": "2026-11-05",
     "ci50": [
-      "2026-11-04",
+      "2026-11-05",
       "2026-11-05"
     ],
     "ci95": [
-      "2026-11-03",
+      "2026-11-04",
       "2026-11-06"
     ],
-    "observations": 8,
+    "observations": 9,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -82,43 +78,43 @@
       },
       {
         "date": "2026-10-31",
-        "probability": 1e-8
+        "probability": 0
       },
       {
         "date": "2026-11-01",
-        "probability": 0.00001026
+        "probability": 0
       },
       {
         "date": "2026-11-02",
-        "probability": 0.00173259
+        "probability": 0.00000165
       },
       {
         "date": "2026-11-03",
-        "probability": 0.05702587
+        "probability": 0.00318806
       },
       {
         "date": "2026-11-04",
-        "probability": 0.36600183
+        "probability": 0.23765019
       },
       {
         "date": "2026-11-05",
-        "probability": 0.45806769
+        "probability": 0.68311822
       },
       {
         "date": "2026-11-06",
-        "probability": 0.11179209
+        "probability": 0.07571819
       },
       {
         "date": "2026-11-07",
-        "probability": 0.0053202
+        "probability": 0.00032363
       },
       {
         "date": "2026-11-08",
-        "probability": 0.00004937
+        "probability": 5e-8
       },
       {
         "date": "2026-11-09",
-        "probability": 9e-8
+        "probability": 0
       },
       {
         "date": "2026-11-10",
@@ -157,12 +153,21 @@
   "recentForecasts": [
     {
       "episode": 56,
+      "issuedDate": "2026-11-02",
+      "windowStart": "2026-11-04",
+      "windowEnd": "2026-11-07",
+      "windowText": "forecast window for episode 56 fountaining is November 4-7, 2026",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-02T18:33:15+00:00"
+    },
+    {
+      "episode": 56,
       "issuedDate": "2026-11-01",
       "windowStart": "2026-11-03",
       "windowEnd": "2026-11-07",
       "windowText": "forecast window for episode 56 fountaining is November 3-7, 2026",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-01T18:45:57+00:00"
     },
     {
       "episode": 56,
