@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T01:34:59.331Z",
+  "generatedAt": "2026-11-06T01:43:30.401Z",
   "currentEpisode": 56,
   "latestCompletedEpisode": 55,
   "usgs": {
-    "issuedDate": "2026-11-03",
-    "issuedLabel": "Tuesday, November 3, 2026, 10:35 AM HST",
+    "issuedDate": "2026-11-05",
+    "issuedLabel": "Thursday, November 5, 2026, 2:34 PM HST",
     "episode": null,
     "alertLevel": "WATCH",
     "aviationColor": "ORANGE",
-    "summary": "Lava flows began erupting from the north vent within Halema'uma'u yesterday, November 2, and are continuing this morning. High fountaining remains a possibility today or anytime within the next few days.",
+    "summary": "Episode 56 of the ongoing Halemaʻumaʻu eruption continues at 2:15 PM HST on November 5, 2026. Fountain heights have reached about 660 feet (200 meters).",
     "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
