@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T01:03:59.908Z",
+  "generatedAt": "2026-11-08T00:51:43.165Z",
   "currentEpisode": 56,
   "latestCompletedEpisode": 55,
   "usgs": {
-    "issuedDate": "2026-11-06",
-    "issuedLabel": "Friday, November 6, 2026, 2:50 PM HST",
+    "issuedDate": "2026-11-07",
+    "issuedLabel": "Saturday, November 7, 2026, 8:24 AM HST",
     "episode": null,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
-    "summary": "Episode 56 of the ongoing Halemaʻumaʻu eruption ended at 6:01 p.m. HST on November 5, 2026. Alert level has been lowered from WATCH to ADVISORY. Aviation color code has been lowered from ORANGE to YELLOW.",
+    "summary": "The Halema'uma'u eruption of Kīlauea is currently paused after episode 56 fountaining ended on November 5. The summit is reinflating and the next episode of lava fountaining is likely several weeks away.",
     "forecastWindow": null,
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
