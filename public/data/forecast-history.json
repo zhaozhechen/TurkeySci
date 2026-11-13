@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T02:23:53.624Z",
+  "updatedAt": "2026-11-13T02:01:59.518Z",
   "forecasts": [
     {
       "episode": 33,
@@ -2894,6 +2894,15 @@
     {
       "episode": 57,
       "issuedDate": "2026-11-11",
+      "windowStart": "2026-11-16",
+      "windowEnd": "2026-11-21",
+      "windowText": "forecast window is November 16-21",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-11T17:28:12+00:00"
+    },
+    {
+      "episode": 57,
+      "issuedDate": "2026-11-12",
       "windowStart": "2026-11-16",
       "windowEnd": "2026-11-21",
       "windowText": "forecast window is November 16-21",

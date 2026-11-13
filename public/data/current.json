@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T02:23:53.625Z",
+  "generatedAt": "2026-11-13T02:01:59.519Z",
   "currentEpisode": 57,
   "latestCompletedEpisode": 56,
   "usgs": {
-    "issuedDate": "2026-11-11",
-    "issuedLabel": "Wednesday, November 11, 2026, 8:25 AM HST",
+    "issuedDate": "2026-11-12",
+    "issuedLabel": "Thursday, November 12, 2026, 8:32 AM HST",
     "episode": 57,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
@@ -21,14 +21,14 @@
     "mapDate": "2026-11-18",
     "meanDate": "2026-11-18",
     "ci50": [
-      "2026-11-16",
-      "2026-11-20"
+      "2026-11-17",
+      "2026-11-19"
     ],
     "ci95": [
-      "2026-11-12",
-      "2026-11-24"
+      "2026-11-15",
+      "2026-11-21"
     ],
-    "observations": 1,
+    "observations": 2,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -38,95 +38,104 @@
     "distribution": [
       {
         "date": "2026-11-09",
-        "probability": 0.00147869
+        "probability": 0
       },
       {
         "date": "2026-11-10",
-        "probability": 0.00380228
+        "probability": 1.8e-7
       },
       {
         "date": "2026-11-11",
-        "probability": 0.00874896
+        "probability": 0.00000496
       },
       {
         "date": "2026-11-12",
-        "probability": 0.01801414
+        "probability": 0.00008922
       },
       {
         "date": "2026-11-13",
-        "probability": 0.03319064
+        "probability": 0.00102819
       },
       {
         "date": "2026-11-14",
-        "probability": 0.05472212
+        "probability": 0.00759732
       },
       {
         "date": "2026-11-15",
-        "probability": 0.08073376
+        "probability": 0.03599398
       },
       {
         "date": "2026-11-16",
-        "probability": 0.10658413
+        "probability": 0.10934005
       },
       {
         "date": "2026-11-17",
-        "probability": 0.12591427
+        "probability": 0.21296534
       },
       {
         "date": "2026-11-18",
-        "probability": 0.13310747
+        "probability": 0.26596152
       },
       {
         "date": "2026-11-19",
-        "probability": 0.12591427
+        "probability": 0.21296534
       },
       {
         "date": "2026-11-20",
-        "probability": 0.10658413
+        "probability": 0.10934005
       },
       {
         "date": "2026-11-21",
-        "probability": 0.08073376
+        "probability": 0.03599398
       },
       {
         "date": "2026-11-22",
-        "probability": 0.05472212
+        "probability": 0.00759732
       },
       {
         "date": "2026-11-23",
-        "probability": 0.03319064
+        "probability": 0.00102819
       },
       {
         "date": "2026-11-24",
-        "probability": 0.01801414
+        "probability": 0.00008922
       },
       {
         "date": "2026-11-25",
-        "probability": 0.00874896
+        "probability": 0.00000496
       },
       {
         "date": "2026-11-26",
-        "probability": 0.00380228
+        "probability": 1.8e-7
       },
       {
         "date": "2026-11-27",
-        "probability": 0.00147869
+        "probability": 0
       },
       {
         "date": "2026-11-28",
-        "probability": 0.00051458
+        "probability": 0
       }
     ]
   },
   "recentForecasts": [
     {
       "episode": 57,
-      "issuedDate": "2026-11-11",
+      "issuedDate": "2026-11-12",
       "windowStart": "2026-11-16",
       "windowEnd": "2026-11-21",
       "windowText": "forecast window is November 16-21",
       "source": "USGS daily update",
       "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 57,
+      "issuedDate": "2026-11-11",
+      "windowStart": "2026-11-16",
+      "windowEnd": "2026-11-21",
+      "windowText": "forecast window is November 16-21",
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-11T17:28:12+00:00"
     }
   ],
   "previousEruptions": [
