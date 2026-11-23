@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T01:29:26.180Z",
+  "generatedAt": "2026-11-23T01:54:38.693Z",
   "currentEpisode": 57,
   "latestCompletedEpisode": 56,
   "usgs": {
-    "issuedDate": "2026-11-21",
-    "issuedLabel": "Saturday, November 21, 2026, 8:48 AM HST",
+    "issuedDate": "2026-11-22",
+    "issuedLabel": "Sunday, November 22, 2026, 10:06 AM HST",
     "episode": 57,
-    "alertLevel": "ADVISORY",
-    "aviationColor": "YELLOW",
-    "summary": "The Halema'uma'u eruption of Kīlauea remains paused following episode 56 fountaining on November 5. Summit inflation stalled just before midnight moving the episode 57 forecast window to November 22-26.",
+    "alertLevel": "WATCH",
+    "aviationColor": "ORANGE",
+    "summary": "Eruption of intermittent precursory overflows from both the north and southwest Halemaʻumaʻu vents began at 1:21 a.m. on November 22. The modeled forecast for the onset of episode 57 fountaining is November 22-26.",
     "forecastWindow": {
       "start": "2026-11-22",
       "end": "2026-11-26",
-      "text": "forecast window to November 22-26"
+      "text": "forecast for the onset of episode 57 fountaining is November 22-26"
     },
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
@@ -25,10 +25,10 @@
       "2026-11-21"
     ],
     "ci95": [
-      "2026-11-20",
+      "2026-11-21",
       "2026-11-22"
     ],
-    "observations": 11,
+    "observations": 12,
     "parameters": {
       "sigmaScale": 2,
       "recencyStrength": 2,
@@ -78,23 +78,23 @@
       },
       {
         "date": "2026-11-19",
-        "probability": 0.00008633
+        "probability": 0.00000316
       },
       {
         "date": "2026-11-20",
-        "probability": 0.09755468
+        "probability": 0.02035252
       },
       {
         "date": "2026-11-21",
-        "probability": 0.84602405
+        "probability": 0.79273657
       },
       {
         "date": "2026-11-22",
-        "probability": 0.05630618
+        "probability": 0.18664213
       },
       {
         "date": "2026-11-23",
-        "probability": 0.00002876
+        "probability": 0.00026562
       },
       {
         "date": "2026-11-24",
@@ -141,12 +141,21 @@
   "recentForecasts": [
     {
       "episode": 57,
+      "issuedDate": "2026-11-22",
+      "windowStart": "2026-11-22",
+      "windowEnd": "2026-11-26",
+      "windowText": "forecast for the onset of episode 57 fountaining is November 22-26",
+      "source": "USGS daily update",
+      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+    },
+    {
+      "episode": 57,
       "issuedDate": "2026-11-21",
       "windowStart": "2026-11-22",
       "windowEnd": "2026-11-26",
       "windowText": "forecast window to November 22-26",
-      "source": "USGS daily update",
-      "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
+      "source": "USGS HANS daily update archive",
+      "sourceUrl": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-21T18:23:37+00:00"
     },
     {
       "episode": 57,
