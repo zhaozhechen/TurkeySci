@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T03:43:24.753Z",
+  "generatedAt": "2026-11-28T03:27:05.676Z",
   "currentEpisode": 58,
   "latestCompletedEpisode": 57,
   "usgs": {
-    "issuedDate": "2026-11-26",
-    "issuedLabel": "Thursday, November 26, 2026, 7:37 AM HST",
+    "issuedDate": "2026-11-27",
+    "issuedLabel": "Friday, November 27, 2026, 9:19 AM HST",
     "episode": null,
     "alertLevel": "ADVISORY",
     "aviationColor": "YELLOW",
-    "summary": "The Halema'uma'u eruption at the summit of Kīlauea is paused following lava fountaining episode 57 on the morning of November 23. Preliminary forecast models suggest the next episode may occur sometime between December 3 and 16.",
+    "summary": "The Halema'uma'u eruption at the summit of Kīlauea is paused following lava fountaining episode 57. Forecast models indicate the next episode is likely sometime between December 4 and 14.",
     "forecastWindow": {
-      "start": "2026-12-03",
-      "end": "2026-12-16",
-      "text": "between December 3 and 16"
+      "start": "2026-12-04",
+      "end": "2026-12-14",
+      "text": "between December 4 and 14"
     },
     "sourceUrl": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates"
   },
